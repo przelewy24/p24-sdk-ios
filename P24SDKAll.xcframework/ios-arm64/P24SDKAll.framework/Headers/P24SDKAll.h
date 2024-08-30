@@ -442,11 +442,20 @@ __attribute__((swift_name("TokenizationMode")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("TokenizedCard")))
 @interface PSDKATokenizedCard : PSDKABase
-- (instancetype)initWithBin:(NSString *)bin hash:(NSString *)hash refId:(NSString *)refId mask:(NSString *)mask cardType:(NSString *)cardType cardDate:(NSString *)cardDate cardCountry:(NSString *)cardCountry bank:(NSString *)bank __attribute__((swift_name("init(bin:hash:refId:mask:cardType:cardDate:cardCountry:bank:)"))) __attribute__((objc_designated_initializer));
-- (PSDKATokenizedCard *)doCopyBin:(NSString *)bin hash:(NSString *)hash refId:(NSString *)refId mask:(NSString *)mask cardType:(NSString *)cardType cardDate:(NSString *)cardDate cardCountry:(NSString *)cardCountry bank:(NSString *)bank __attribute__((swift_name("doCopy(bin:hash:refId:mask:cardType:cardDate:cardCountry:bank:)")));
+- (instancetype)initWithBin:(NSString *)bin hash:(NSString *)hash refId:(NSString *)refId mask:(NSString *)mask cardType:(NSString *)cardType cardDate:(NSString *)cardDate cardCountry:(NSString *)cardCountry bank:(NSString *)bank tokenization:(NSString *)tokenization __attribute__((swift_name("init(bin:hash:refId:mask:cardType:cardDate:cardCountry:bank:tokenization:)"))) __attribute__((objc_designated_initializer));
+- (PSDKATokenizedCard *)doCopyBin:(NSString *)bin hash:(NSString *)hash refId:(NSString *)refId mask:(NSString *)mask cardType:(NSString *)cardType cardDate:(NSString *)cardDate cardCountry:(NSString *)cardCountry bank:(NSString *)bank tokenization:(NSString *)tokenization __attribute__((swift_name("doCopy(bin:hash:refId:mask:cardType:cardDate:cardCountry:bank:tokenization:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *bank __attribute__((swift_name("bank")));
+@property (readonly) NSString *bin __attribute__((swift_name("bin")));
+@property (readonly) NSString *cardCountry __attribute__((swift_name("cardCountry")));
+@property (readonly) NSString *cardDate __attribute__((swift_name("cardDate")));
+@property (readonly) NSString *cardType __attribute__((swift_name("cardType")));
+@property (readonly, getter=hash_) NSString *hash __attribute__((swift_name("hash")));
+@property (readonly) NSString *mask __attribute__((swift_name("mask")));
+@property (readonly) NSString *refId __attribute__((swift_name("refId")));
+@property (readonly) NSString *tokenization __attribute__((swift_name("tokenization")));
 @end
 
 __attribute__((swift_name("TokenizationCallback")))
