@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
     spec.name                     = 'P24SDKAll'
-    spec.version                  = '0.4.5'
+    spec.version                  = '0.4.6'
     spec.homepage                 = 'https://p24.pl'
     spec.source                   = { :http=> ''}
     spec.authors                  = ''
