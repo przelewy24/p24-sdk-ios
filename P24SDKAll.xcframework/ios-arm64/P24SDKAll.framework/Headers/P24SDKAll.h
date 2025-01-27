@@ -6,9 +6,9 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class PSDKACardChargeModule, PSDKAKotlinEnumCompanion, PSDKAKotlinEnum<E>, PSDKAEnvironment, PSDKAKotlinArray<T>, PSDKAP24, UIView, PSDKADownloadConfigStatus, PSDKATimeoutEvent, PSDKACardRequest, PSDKACardRequestBuilder, PSDKACardRequestEvent, PSDKACardRequestEventNeed3DS, PSDKACardRequestEventProcessCanceled, PSDKACardRequestEventProcessCompleted, PSDKACardRequestEventProcessError, PSDKACardRequestEventProcessStarted, PSDKABorderStyle, PSDKAButtonStyle, PSDKACardOrganization, PSDKACardTokenizeModule, PSDKACheckBoxStyle, PSDKAInputStyle, PSDKAFormStyle, PSDKATOSCheckbox, PSDKATermsOfServiceConfig, PSDKATokenizationMode, PSDKATokenizedCard, PSDKATokenizeCardRequestBuilder, PSDKATokenizeCardRequest, PSDKAConfig, PSDKAMakeGetRequest, PSDKADecodeFromJsonString, PSDKAP24Token, PSDKAEither<__covariant A, __covariant B>, PSDKAKotlinNothing, PSDKAKtor_client_coreHttpClient, PSDKAKotlinx_serialization_jsonJson, PSDKAResponse, PSDKABaseClient, PSDKAPostErrorNoConnection, PSDKAPostErrorServerError, PSDKAKtor_client_loggingLoggerCompanion, PSDKAKotlinx_serialization_jsonJsonElement, PSDKAKoin_coreModule, PSDKAKoin_coreKoinApplication, PSDKAKotlinCancellationException, PSDKAKotlinThrowable, PSDKAKotlinException, PSDKAKotlinRuntimeException, PSDKAKotlinIllegalStateException, PSDKAKtor_client_coreHttpClientEngineConfig, PSDKAKtor_client_coreHttpClientConfig<T>, PSDKAKtor_eventsEvents, PSDKAKtor_client_coreHttpReceivePipeline, PSDKAKtor_client_coreHttpRequestPipeline, PSDKAKtor_client_coreHttpResponsePipeline, PSDKAKtor_client_coreHttpSendPipeline, PSDKAKotlinx_serialization_coreSerializersModule, PSDKAKotlinx_serialization_jsonJsonDefault, PSDKAKotlinx_serialization_jsonJsonConfiguration, PSDKAKotlinx_serialization_jsonJsonElementCompanion, PSDKAKoin_coreKoinDefinition<R>, PSDKAKoin_coreScope, PSDKAKoin_coreParametersHolder, PSDKAKoin_coreInstanceFactory<T>, PSDKAKoin_coreSingleInstanceFactory<T>, PSDKAKoin_coreScopeDSL, PSDKAKoin_coreKoinApplicationCompanion, PSDKAKoin_coreLogger, PSDKAKoin_coreLevel, PSDKAKoin_coreKoin, PSDKAKotlinUnit, PSDKAKtor_client_coreHttpRequestData, PSDKAKtor_client_coreHttpResponseData, PSDKAKotlinx_coroutines_coreCoroutineDispatcher, PSDKAKtor_client_coreProxyConfig, PSDKAKtor_utilsAttributeKey<T>, PSDKAKtor_eventsEventDefinition<T>, PSDKAKtor_utilsPipelinePhase, PSDKAKtor_utilsPipeline<TSubject, TContext>, PSDKAKtor_client_coreHttpReceivePipelinePhases, PSDKAKtor_client_coreHttpResponse, PSDKAKtor_client_coreHttpRequestPipelinePhases, PSDKAKtor_client_coreHttpRequestBuilder, PSDKAKtor_client_coreHttpResponsePipelinePhases, PSDKAKtor_client_coreHttpResponseContainer, PSDKAKtor_client_coreHttpClientCall, PSDKAKtor_client_coreHttpSendPipelinePhases, PSDKAKoin_coreLockable, PSDKAKotlinLazyThreadSafetyMode, PSDKAKoin_coreParametersHolderCompanion, PSDKAKoin_coreBeanDefinition<T>, PSDKAKoin_coreInstanceFactoryCompanion, PSDKAKoin_coreInstanceContext, PSDKAKoin_coreInstanceRegistry, PSDKAKoin_corePropertyRegistry, PSDKAKoin_coreScopeRegistry, PSDKAKtor_httpUrl, PSDKAKtor_httpHttpMethod, PSDKAKtor_httpOutgoingContent, PSDKAKtor_httpHttpStatusCode, PSDKAKtor_utilsGMTDate, PSDKAKtor_httpHttpProtocolVersion, PSDKAKotlinAbstractCoroutineContextElement, PSDKAKotlinx_coroutines_coreCoroutineDispatcherKey, PSDKAKtor_httpHeadersBuilder, PSDKAKtor_client_coreHttpRequestBuilderCompanion, PSDKAKtor_httpURLBuilder, PSDKAKtor_utilsTypeInfo, PSDKAKtor_client_coreHttpClientCallCompanion, PSDKAKotlinx_serialization_coreSerialKind, PSDKAKoin_coreKind, PSDKAKoin_coreCallbacks<T>, PSDKAKoin_coreScopeRegistryCompanion, PSDKAKtor_httpUrlCompanion, PSDKAKtor_httpURLProtocol, PSDKAKtor_httpHttpMethodCompanion, PSDKAKtor_httpContentType, PSDKAKtor_httpHttpStatusCodeCompanion, PSDKAKtor_utilsGMTDateCompanion, PSDKAKtor_utilsWeekDay, PSDKAKtor_utilsMonth, PSDKAKtor_httpHttpProtocolVersionCompanion, PSDKAKotlinAbstractCoroutineContextKey<B, E>, PSDKAKtor_ioMemory, PSDKAKtor_ioChunkBuffer, PSDKAKtor_ioBuffer, PSDKAKotlinByteArray, PSDKAKtor_ioByteReadPacket, PSDKAKtor_utilsStringValuesBuilderImpl, PSDKAKtor_httpURLBuilderCompanion, PSDKAKtor_httpURLProtocolCompanion, PSDKAKtor_httpHeaderValueParam, PSDKAKtor_httpHeaderValueWithParametersCompanion, PSDKAKtor_httpHeaderValueWithParameters, PSDKAKtor_httpContentTypeCompanion, PSDKAKtor_utilsWeekDayCompanion, PSDKAKtor_utilsMonthCompanion, PSDKAKtor_ioMemoryCompanion, PSDKAKtor_ioBufferCompanion, PSDKAKtor_ioChunkBufferCompanion, PSDKAKotlinByteIterator, PSDKAKtor_ioInputCompanion, PSDKAKtor_ioInput, PSDKAKtor_ioByteReadPacketCompanion, PSDKAKotlinKTypeProjection, PSDKAKotlinKVariance, PSDKAKotlinKTypeProjectionCompanion;
+@class PSDKACardChargeModule, PSDKAKotlinEnumCompanion, PSDKAKotlinEnum<E>, PSDKAEnvironment, PSDKAKotlinArray<T>, PSDKAP24, UIView, PSDKADownloadConfigStatus, PSDKATimeoutEvent, PSDKACardRequest, PSDKACardRequestBuilder, PSDKACardRequestEvent, PSDKACardRequestEventNeed3DS, PSDKACardRequestEventProcessCanceled, PSDKACardRequestEventProcessCompleted, PSDKACardRequestEventProcessError, PSDKACardRequestEventProcessStarted, PSDKABorderStyle, PSDKAButtonStyle, PSDKACardOrganization, PSDKACardTokenizeModule, PSDKACheckBoxStyle, PSDKAInputStyle, PSDKAFormStyle, PSDKATOSCheckbox, PSDKATermsOfServiceConfig, PSDKATokenizationMode, PSDKATokenizedCard, PSDKATokenizeCardRequestBuilder, PSDKATokenizeCardRequest, PSDKATosText, PSDKAConfig, PSDKAMakeGetRequest, PSDKADecodeFromJsonString, PSDKAP24Token, PSDKAEither<__covariant A, __covariant B>, PSDKAKotlinNothing, PSDKAInstallmentsModule, PSDKAInstallmentsRequestBuilder, PSDKAInstallmentsRequest, PSDKACloseIcon, PSDKAP24Logo, PSDKAKtor_client_coreHttpClient, PSDKAKotlinx_serialization_jsonJson, PSDKAResponse, PSDKABaseClient, PSDKAPostErrorNoConnection, PSDKAPostErrorServerError, UIViewController, PSDKAKtor_client_loggingLoggerCompanion, PSDKAKotlinx_serialization_jsonJsonElement, NSAttributedString, PSDKAKoin_coreModule, PSDKAKoin_coreKoinApplication, PSDKAKotlinCancellationException, PSDKAKotlinThrowable, PSDKAKotlinException, PSDKAKotlinRuntimeException, PSDKAKotlinIllegalStateException, PSDKAKtor_client_coreHttpClientEngineConfig, PSDKAKtor_client_coreHttpClientConfig<T>, PSDKAKtor_eventsEvents, PSDKAKtor_client_coreHttpReceivePipeline, PSDKAKtor_client_coreHttpRequestPipeline, PSDKAKtor_client_coreHttpResponsePipeline, PSDKAKtor_client_coreHttpSendPipeline, PSDKAKotlinx_serialization_coreSerializersModule, PSDKAKotlinx_serialization_jsonJsonDefault, PSDKAKotlinx_serialization_jsonJsonConfiguration, PSDKAKotlinx_serialization_jsonJsonElementCompanion, PSDKAKoin_coreKoinDefinition<R>, PSDKAKoin_coreScope, PSDKAKoin_coreParametersHolder, PSDKAKoin_coreInstanceFactory<T>, PSDKAKoin_coreSingleInstanceFactory<T>, PSDKAKoin_coreScopeDSL, PSDKAKoin_coreKoinApplicationCompanion, PSDKAKoin_coreLogger, PSDKAKoin_coreLevel, PSDKAKoin_coreKoin, PSDKAKotlinUnit, PSDKAKtor_client_coreHttpRequestData, PSDKAKtor_client_coreHttpResponseData, PSDKAKotlinx_coroutines_coreCoroutineDispatcher, PSDKAKtor_client_coreProxyConfig, PSDKAKtor_utilsAttributeKey<T>, PSDKAKtor_eventsEventDefinition<T>, PSDKAKtor_utilsPipelinePhase, PSDKAKtor_utilsPipeline<TSubject, TContext>, PSDKAKtor_client_coreHttpReceivePipelinePhases, PSDKAKtor_client_coreHttpResponse, PSDKAKtor_client_coreHttpRequestPipelinePhases, PSDKAKtor_client_coreHttpRequestBuilder, PSDKAKtor_client_coreHttpResponsePipelinePhases, PSDKAKtor_client_coreHttpResponseContainer, PSDKAKtor_client_coreHttpClientCall, PSDKAKtor_client_coreHttpSendPipelinePhases, PSDKAKoin_coreLockable, PSDKAKotlinLazyThreadSafetyMode, PSDKAKoin_coreBeanDefinition<T>, PSDKAKoin_coreInstanceFactoryCompanion, PSDKAKoin_coreResolutionContext, PSDKAKoin_coreExtensionManager, PSDKAKoin_coreInstanceRegistry, PSDKAKoin_corePropertyRegistry, PSDKAKoin_coreScopeRegistry, PSDKAKtor_httpUrl, PSDKAKtor_httpHttpMethod, PSDKAKtor_httpOutgoingContent, PSDKAKtor_httpHttpStatusCode, PSDKAKtor_utilsGMTDate, PSDKAKtor_httpHttpProtocolVersion, PSDKAKotlinAbstractCoroutineContextElement, PSDKAKotlinx_coroutines_coreCoroutineDispatcherKey, PSDKAKtor_httpHeadersBuilder, PSDKAKtor_client_coreHttpRequestBuilderCompanion, PSDKAKtor_httpURLBuilder, PSDKAKtor_utilsTypeInfo, PSDKAKtor_client_coreHttpClientCallCompanion, PSDKAKotlinx_serialization_coreSerialKind, PSDKAKoin_coreKind, PSDKAKoin_coreCallbacks<T>, PSDKAKoin_coreScopeRegistryCompanion, PSDKAKtor_httpUrlCompanion, PSDKAKtor_httpURLProtocol, PSDKAKtor_httpHttpMethodCompanion, PSDKAKtor_httpContentType, PSDKAKtor_httpHttpStatusCodeCompanion, PSDKAKtor_utilsGMTDateCompanion, PSDKAKtor_utilsWeekDay, PSDKAKtor_utilsMonth, PSDKAKtor_httpHttpProtocolVersionCompanion, PSDKAKotlinAbstractCoroutineContextKey<B, E>, PSDKAKtor_ioMemory, PSDKAKtor_ioChunkBuffer, PSDKAKtor_ioBuffer, PSDKAKotlinByteArray, PSDKAKtor_ioByteReadPacket, PSDKAKtor_utilsStringValuesBuilderImpl, PSDKAKtor_httpURLBuilderCompanion, PSDKAKtor_httpURLProtocolCompanion, PSDKAKtor_httpHeaderValueParam, PSDKAKtor_httpHeaderValueWithParametersCompanion, PSDKAKtor_httpHeaderValueWithParameters, PSDKAKtor_httpContentTypeCompanion, PSDKAKtor_utilsWeekDayCompanion, PSDKAKtor_utilsMonthCompanion, PSDKAKtor_ioMemoryCompanion, PSDKAKtor_ioBufferCompanion, PSDKAKtor_ioChunkBufferCompanion, PSDKAKotlinByteIterator, PSDKAKtor_ioInputCompanion, PSDKAKtor_ioInput, PSDKAKtor_ioByteReadPacketCompanion, PSDKAKotlinKTypeProjection, PSDKAKotlinKVariance, PSDKAKotlinKTypeProjectionCompanion;
 
-@protocol PSDKASdkModule, PSDKAKotlinComparable, PSDKAKotlinx_coroutines_coreJob, PSDKACardRequestCallback, PSDKATokenizationCallback, PSDKAPostError, PSDKAKotlinCoroutineContext, PSDKAKotlinx_coroutines_coreCoroutineScope, PSDKAKotlinx_coroutines_coreFlow, PSDKAKotlinx_coroutines_coreMutableSharedFlow, PSDKAEvent, PSDKAKtor_client_loggingLogger, PSDKAKotlinLazy, PSDKAKotlinIterator, PSDKAKotlinx_coroutines_coreChildHandle, PSDKAKotlinx_coroutines_coreChildJob, PSDKAKotlinx_coroutines_coreDisposableHandle, PSDKAKotlinSequence, PSDKAKotlinx_coroutines_coreSelectClause0, PSDKAKotlinCoroutineContextKey, PSDKAKotlinCoroutineContextElement, PSDKAKtor_ioCloseable, PSDKAKtor_client_coreHttpClientEngine, PSDKAKtor_client_coreHttpClientEngineCapability, PSDKAKtor_utilsAttributes, PSDKAKotlinx_serialization_coreDeserializationStrategy, PSDKAKotlinx_serialization_coreSerializationStrategy, PSDKAKotlinx_serialization_coreSerialFormat, PSDKAKotlinx_serialization_coreStringFormat, PSDKAKotlinx_coroutines_coreFlowCollector, PSDKAKotlinx_coroutines_coreStateFlow, PSDKAKotlinx_coroutines_coreSharedFlow, PSDKAKoin_coreQualifier, PSDKAKotlinx_coroutines_coreParentJob, PSDKAKotlinx_coroutines_coreSelectInstance, PSDKAKotlinx_coroutines_coreSelectClause, PSDKAKtor_client_coreHttpClientPlugin, PSDKAKotlinSuspendFunction2, PSDKAKotlinx_serialization_coreDecoder, PSDKAKotlinx_serialization_coreSerialDescriptor, PSDKAKotlinx_serialization_coreEncoder, PSDKAKotlinx_serialization_coreSerializersModuleCollector, PSDKAKotlinx_serialization_coreKSerializer, PSDKAKotlinKClass, PSDKAKotlinx_serialization_jsonJsonNamingStrategy, PSDKAKoin_coreScopeCallback, PSDKAKoin_coreKoinScopeComponent, PSDKAKtor_httpHeaders, PSDKAKotlinContinuation, PSDKAKotlinContinuationInterceptor, PSDKAKotlinx_coroutines_coreRunnable, PSDKAKotlinFunction, PSDKAKtor_httpHttpMessage, PSDKAKtor_ioByteReadChannel, PSDKAKtor_httpHttpMessageBuilder, PSDKAKtor_client_coreHttpRequest, PSDKAKotlinx_serialization_coreCompositeDecoder, PSDKAKotlinAnnotation, PSDKAKotlinx_serialization_coreCompositeEncoder, PSDKAKotlinKDeclarationContainer, PSDKAKotlinKAnnotatedElement, PSDKAKotlinKClassifier, PSDKAKoin_coreKoinComponent, PSDKAKtor_httpParameters, PSDKAKotlinMapEntry, PSDKAKtor_utilsStringValues, PSDKAKtor_ioReadSession, PSDKAKotlinSuspendFunction1, PSDKAKotlinAppendable, PSDKAKtor_utilsStringValuesBuilder, PSDKAKtor_httpParametersBuilder, PSDKAKotlinKType, PSDKAKtor_ioObjectPool;
+@protocol PSDKASdkModule, PSDKAKotlinComparable, PSDKAKotlinx_coroutines_coreJob, PSDKACardRequestCallback, PSDKATokenizationCallback, PSDKAInstallmentsCallback, PSDKAPostError, PSDKAKotlinCoroutineContext, PSDKAKotlinx_coroutines_coreCoroutineScope, PSDKAKotlinx_coroutines_coreFlow, PSDKAKotlinx_coroutines_coreMutableSharedFlow, PSDKAEvent, PSDKAKtor_client_loggingLogger, PSDKAKotlinLazy, PSDKAKotlinIterator, PSDKAKotlinx_coroutines_coreChildHandle, PSDKAKotlinx_coroutines_coreChildJob, PSDKAKotlinx_coroutines_coreDisposableHandle, PSDKAKotlinSequence, PSDKAKotlinx_coroutines_coreSelectClause0, PSDKAKotlinCoroutineContextKey, PSDKAKotlinCoroutineContextElement, PSDKAKtor_ioCloseable, PSDKAKtor_client_coreHttpClientEngine, PSDKAKtor_client_coreHttpClientEngineCapability, PSDKAKtor_utilsAttributes, PSDKAKotlinx_serialization_coreDeserializationStrategy, PSDKAKotlinx_serialization_coreSerializationStrategy, PSDKAKotlinx_serialization_coreSerialFormat, PSDKAKotlinx_serialization_coreStringFormat, PSDKAKotlinx_coroutines_coreFlowCollector, PSDKAKotlinx_coroutines_coreStateFlow, PSDKAKotlinx_coroutines_coreSharedFlow, PSDKAKoin_coreQualifier, PSDKAKotlinx_coroutines_coreParentJob, PSDKAKotlinx_coroutines_coreSelectInstance, PSDKAKotlinx_coroutines_coreSelectClause, PSDKAKtor_client_coreHttpClientPlugin, PSDKAKotlinSuspendFunction2, PSDKAKotlinx_serialization_coreDecoder, PSDKAKotlinx_serialization_coreSerialDescriptor, PSDKAKotlinx_serialization_coreEncoder, PSDKAKotlinx_serialization_coreSerializersModuleCollector, PSDKAKotlinx_serialization_coreKSerializer, PSDKAKotlinKClass, PSDKAKotlinx_serialization_jsonJsonNamingStrategy, PSDKAKoin_coreScopeCallback, PSDKAKoin_coreKoinScopeComponent, PSDKAKtor_httpHeaders, PSDKAKotlinContinuation, PSDKAKotlinContinuationInterceptor, PSDKAKotlinx_coroutines_coreRunnable, PSDKAKotlinFunction, PSDKAKtor_httpHttpMessage, PSDKAKtor_ioByteReadChannel, PSDKAKtor_httpHttpMessageBuilder, PSDKAKtor_client_coreHttpRequest, PSDKAKotlinx_serialization_coreCompositeDecoder, PSDKAKotlinAnnotation, PSDKAKotlinx_serialization_coreCompositeEncoder, PSDKAKotlinKDeclarationContainer, PSDKAKotlinKAnnotatedElement, PSDKAKotlinKClassifier, PSDKAKoin_coreKoinComponent, PSDKAKoin_coreKoinExtension, PSDKAKtor_httpParameters, PSDKAKotlinMapEntry, PSDKAKtor_utilsStringValues, PSDKAKtor_ioReadSession, PSDKAKotlinSuspendFunction1, PSDKAKotlinAppendable, PSDKAKtor_utilsStringValuesBuilder, PSDKAKtor_httpParametersBuilder, PSDKAKotlinKType, PSDKAKtor_ioObjectPool;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -502,6 +502,16 @@ __attribute__((swift_name("TokenizeCardRequestBuilder")))
 @end
 
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("TosText")))
+@interface PSDKATosText : PSDKABase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)tosText __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) PSDKATosText *shared __attribute__((swift_name("shared")));
+@property (readonly) NSString *VALUE __attribute__((swift_name("VALUE")));
+@end
+
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Config")))
 @interface PSDKAConfig : PSDKABase
 - (instancetype)initWithWebsocketUrl:(NSString *)websocketUrl timeoutTooLongNo3DS:(int64_t)timeoutTooLongNo3DS timeoutTooLongNoSuccess:(int64_t)timeoutTooLongNoSuccess __attribute__((swift_name("init(websocketUrl:timeoutTooLongNo3DS:timeoutTooLongNoSuccess:)"))) __attribute__((objc_designated_initializer));
@@ -553,6 +563,64 @@ __attribute__((swift_name("P24Token")))
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) NSString *value __attribute__((swift_name("value")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("InstallmentsModule")))
+@interface PSDKAInstallmentsModule : PSDKABase <PSDKASdkModule>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)installmentsModule __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) PSDKAInstallmentsModule *shared __attribute__((swift_name("shared")));
+- (void)install __attribute__((swift_name("install()")));
+@end
+
+__attribute__((swift_name("InstallmentsCallback")))
+@protocol PSDKAInstallmentsCallback
+@required
+- (void)onCanceled __attribute__((swift_name("onCanceled()")));
+- (void)onCompleted __attribute__((swift_name("onCompleted()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("InstallmentsRequest")))
+@interface PSDKAInstallmentsRequest : PSDKABase
+- (void)start __attribute__((swift_name("start()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("InstallmentsRequestBuilder")))
+@interface PSDKAInstallmentsRequestBuilder : PSDKABase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (PSDKAInstallmentsRequestBuilder *)amountAmount:(int32_t)amount __attribute__((swift_name("amount(amount:)")));
+- (PSDKAInstallmentsRequest *)build __attribute__((swift_name("build()")));
+- (PSDKAInstallmentsRequestBuilder *)callbackCallback:(id<PSDKAInstallmentsCallback>)callback __attribute__((swift_name("callback(callback:)")));
+- (PSDKAInstallmentsRequestBuilder *)currencyCurrency:(NSString *)currency __attribute__((swift_name("currency(currency:)")));
+- (PSDKAInstallmentsRequestBuilder *)langLang:(NSString *)lang __attribute__((swift_name("lang(lang:)")));
+- (PSDKAInstallmentsRequestBuilder *)methodMethod:(int32_t)method __attribute__((swift_name("method(method:)")));
+- (PSDKAInstallmentsRequestBuilder *)posIdId:(int32_t)id __attribute__((swift_name("posId(id:)")));
+- (PSDKAInstallmentsRequestBuilder *)signSign:(NSString *)sign __attribute__((swift_name("sign(sign:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("CloseIcon")))
+@interface PSDKACloseIcon : PSDKABase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)closeIcon __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) PSDKACloseIcon *shared __attribute__((swift_name("shared")));
+@property (readonly) NSString *data __attribute__((swift_name("data")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("P24Logo")))
+@interface PSDKAP24Logo : PSDKABase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)p24Logo __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) PSDKAP24Logo *shared __attribute__((swift_name("shared")));
+@property (readonly) NSString *data __attribute__((swift_name("data")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -700,6 +768,14 @@ __attribute__((swift_name("EventBus")))
 @end
 
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("GetRootViewController")))
+@interface PSDKAGetRootViewController : PSDKABase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (UIViewController * _Nullable)invoke __attribute__((swift_name("invoke()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Ktor_client_loggingLoggerCompanion")))
 @interface PSDKAKtor_client_loggingLoggerCompanion : PSDKABase
 + (instancetype)alloc __attribute__((unavailable));
@@ -725,6 +801,12 @@ __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("EncodeToJsonStringKt")))
 @interface PSDKAEncodeToJsonStringKt : PSDKABase
 + (PSDKAKotlinx_serialization_jsonJsonElement *)toJsonElement:(NSDictionary<id, id> *)receiver __attribute__((swift_name("toJsonElement(_:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("HtmlToAttributtedStringKt")))
+@interface PSDKAHtmlToAttributtedStringKt : PSDKABase
++ (void)convertToAttributedString:(NSString *)receiver onLoaded:(void (^)(NSAttributedString *))onLoaded __attribute__((swift_name("convertToAttributedString(_:onLoaded:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -755,6 +837,12 @@ __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("RandomString_iosKt")))
 @interface PSDKARandomString_iosKt : PSDKABase
 + (NSString *)randomString __attribute__((swift_name("randomString()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("SdkModule_iosKt")))
+@interface PSDKASdkModule_iosKt : PSDKABase
+@property (class, readonly) PSDKAKoin_coreModule *sdkPlatformModule __attribute__((swift_name("sdkPlatformModule")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -1016,7 +1104,7 @@ __attribute__((swift_name("Koin_coreModule")))
 - (PSDKAKoin_coreKoinDefinition<id> *)factoryQualifier:(id<PSDKAKoin_coreQualifier> _Nullable)qualifier definition:(id _Nullable (^)(PSDKAKoin_coreScope *, PSDKAKoin_coreParametersHolder *))definition __attribute__((swift_name("factory(qualifier:definition:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (void)includesModule:(PSDKAKotlinArray<PSDKAKoin_coreModule *> *)module __attribute__((swift_name("includes(module:)")));
-- (void)includesModule_:(NSArray<PSDKAKoin_coreModule *> *)module __attribute__((swift_name("includes(module_:)")));
+- (void)includesModule_:(id)module __attribute__((swift_name("includes(module_:)")));
 - (void)indexPrimaryTypeInstanceFactory:(PSDKAKoin_coreInstanceFactory<id> *)instanceFactory __attribute__((swift_name("indexPrimaryType(instanceFactory:)")));
 - (void)indexSecondaryTypesInstanceFactory:(PSDKAKoin_coreInstanceFactory<id> *)instanceFactory __attribute__((swift_name("indexSecondaryTypes(instanceFactory:)")));
 - (NSArray<PSDKAKoin_coreModule *> *)plusModules:(NSArray<PSDKAKoin_coreModule *> *)modules __attribute__((swift_name("plus(modules:)")));
@@ -1385,9 +1473,7 @@ __attribute__((swift_name("Koin_coreScope")))
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 + (instancetype)new __attribute__((unavailable));
 - (void)close __attribute__((swift_name("close()")));
-- (PSDKAKoin_coreScope *)doCopyScopeQualifier:(id<PSDKAKoin_coreQualifier>)scopeQualifier id:(NSString *)id isRoot:(BOOL)isRoot _koin:(PSDKAKoin_coreKoin *)_koin __attribute__((swift_name("doCopy(scopeQualifier:id:isRoot:_koin:)")));
 - (void)declareInstance:(id _Nullable)instance qualifier:(id<PSDKAKoin_coreQualifier> _Nullable)qualifier secondaryTypes:(NSArray<id<PSDKAKotlinKClass>> *)secondaryTypes allowOverride:(BOOL)allowOverride __attribute__((swift_name("declare(instance:qualifier:secondaryTypes:allowOverride:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (id)getQualifier:(id<PSDKAKoin_coreQualifier> _Nullable)qualifier parameters:(PSDKAKoin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("get(qualifier:parameters:)")));
 - (id _Nullable)getClazz:(id<PSDKAKotlinKClass>)clazz qualifier:(id<PSDKAKoin_coreQualifier> _Nullable)qualifier parameters:(PSDKAKoin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("get(clazz:qualifier:parameters:)")));
 - (NSArray<id> *)getAll __attribute__((swift_name("getAll()")));
@@ -1399,8 +1485,8 @@ __attribute__((swift_name("Koin_coreScope")))
 - (id)getPropertyKey:(NSString *)key defaultValue:(id)defaultValue __attribute__((swift_name("getProperty(key:defaultValue:)")));
 - (id _Nullable)getPropertyOrNullKey:(NSString *)key __attribute__((swift_name("getPropertyOrNull(key:)")));
 - (PSDKAKoin_coreScope *)getScopeScopeID:(NSString *)scopeID __attribute__((swift_name("getScope(scopeID:)")));
-- (id _Nullable)getSource __attribute__((swift_name("getSource()"))) __attribute__((deprecated("No need to use getSource(). You can an use get() directly.")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (id _Nullable)getSource __attribute__((swift_name("getSource()")));
+- (id _Nullable)getWithParametersClazz:(id<PSDKAKotlinKClass>)clazz qualifier:(id<PSDKAKoin_coreQualifier> _Nullable)qualifier parameters:(PSDKAKoin_coreParametersHolder * _Nullable)parameters __attribute__((swift_name("getWithParameters(clazz:qualifier:parameters:)")));
 - (id<PSDKAKotlinLazy>)injectQualifier:(id<PSDKAKoin_coreQualifier> _Nullable)qualifier mode:(PSDKAKotlinLazyThreadSafetyMode *)mode parameters:(PSDKAKoin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("inject(qualifier:mode:parameters:)")));
 - (id<PSDKAKotlinLazy>)injectOrNullQualifier:(id<PSDKAKoin_coreQualifier> _Nullable)qualifier mode:(PSDKAKotlinLazyThreadSafetyMode *)mode parameters:(PSDKAKoin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("injectOrNull(qualifier:mode:parameters:)")));
 - (BOOL)isNotClosed __attribute__((swift_name("isNotClosed()")));
@@ -1408,19 +1494,17 @@ __attribute__((swift_name("Koin_coreScope")))
 - (void)registerCallbackCallback:(id<PSDKAKoin_coreScopeCallback>)callback __attribute__((swift_name("registerCallback(callback:)")));
 - (NSString *)description __attribute__((swift_name("description()")));
 - (void)unlinkScopes:(PSDKAKotlinArray<PSDKAKoin_coreScope *> *)scopes __attribute__((swift_name("unlink(scopes:)")));
-@property (readonly) NSMutableArray<PSDKAKoin_coreParametersHolder *> *_parameterStack __attribute__((swift_name("_parameterStack")));
-@property id _Nullable _source __attribute__((swift_name("_source")));
 @property (readonly) BOOL closed __attribute__((swift_name("closed")));
 @property (readonly) NSString *id __attribute__((swift_name("id")));
 @property (readonly) BOOL isRoot __attribute__((swift_name("isRoot")));
 @property (readonly) PSDKAKoin_coreLogger *logger __attribute__((swift_name("logger")));
 @property (readonly) id<PSDKAKoin_coreQualifier> scopeQualifier __attribute__((swift_name("scopeQualifier")));
+@property id _Nullable sourceValue __attribute__((swift_name("sourceValue")));
 @end
 
 __attribute__((swift_name("Koin_coreParametersHolder")))
 @interface PSDKAKoin_coreParametersHolder : PSDKABase
-- (instancetype)initWith_values:(NSMutableArray<id> *)_values __attribute__((swift_name("init(_values:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) PSDKAKoin_coreParametersHolderCompanion *companion __attribute__((swift_name("companion")));
+- (instancetype)initWith_values:(NSMutableArray<id> *)_values useIndexedValues:(PSDKABoolean * _Nullable)useIndexedValues __attribute__((swift_name("init(_values:useIndexedValues:)"))) __attribute__((objc_designated_initializer));
 - (PSDKAKoin_coreParametersHolder *)addValue:(id)value __attribute__((swift_name("add(value:)")));
 - (id _Nullable)component1 __attribute__((swift_name("component1()")));
 - (id _Nullable)component2 __attribute__((swift_name("component2()")));
@@ -1428,16 +1512,20 @@ __attribute__((swift_name("Koin_coreParametersHolder")))
 - (id _Nullable)component4 __attribute__((swift_name("component4()")));
 - (id _Nullable)component5 __attribute__((swift_name("component5()")));
 - (id _Nullable)elementAtI:(int32_t)i clazz:(id<PSDKAKotlinKClass>)clazz __attribute__((swift_name("elementAt(i:clazz:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (id)get __attribute__((swift_name("get()")));
 - (id _Nullable)getI:(int32_t)i __attribute__((swift_name("get(i:)")));
 - (id _Nullable)getOrNull __attribute__((swift_name("getOrNull()")));
 - (id _Nullable)getOrNullClazz:(id<PSDKAKotlinKClass>)clazz __attribute__((swift_name("getOrNull(clazz:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (PSDKAKoin_coreParametersHolder *)insertIndex:(int32_t)index value:(id)value __attribute__((swift_name("insert(index:value:)")));
 - (BOOL)isEmpty __attribute__((swift_name("isEmpty()")));
 - (BOOL)isNotEmpty __attribute__((swift_name("isNotEmpty()")));
 - (void)setI:(int32_t)i t:(id _Nullable)t __attribute__((swift_name("set(i:t:)")));
 - (int32_t)size __attribute__((swift_name("size()")));
 - (NSString *)description __attribute__((swift_name("description()")));
+@property int32_t index __attribute__((swift_name("index")));
+@property (readonly) PSDKABoolean * _Nullable useIndexedValues __attribute__((swift_name("useIndexedValues")));
 @property (readonly) NSArray<id> *values __attribute__((swift_name("values")));
 @end
 
@@ -1447,13 +1535,11 @@ __attribute__((swift_name("Koin_coreInstanceFactory")))
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 + (instancetype)new __attribute__((unavailable));
 @property (class, readonly, getter=companion) PSDKAKoin_coreInstanceFactoryCompanion *companion __attribute__((swift_name("companion")));
-- (T _Nullable)createContext:(PSDKAKoin_coreInstanceContext *)context __attribute__((swift_name("create(context:)")));
+- (T _Nullable)createContext:(PSDKAKoin_coreResolutionContext *)context __attribute__((swift_name("create(context:)")));
 - (void)dropScope:(PSDKAKoin_coreScope * _Nullable)scope __attribute__((swift_name("drop(scope:)")));
 - (void)dropAll __attribute__((swift_name("dropAll()")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (T _Nullable)getContext:(PSDKAKoin_coreInstanceContext *)context __attribute__((swift_name("get(context:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (BOOL)isCreatedContext:(PSDKAKoin_coreInstanceContext * _Nullable)context __attribute__((swift_name("isCreated(context:)")));
+- (T _Nullable)getContext:(PSDKAKoin_coreResolutionContext *)context __attribute__((swift_name("get(context:)")));
+- (BOOL)isCreatedContext:(PSDKAKoin_coreResolutionContext * _Nullable)context __attribute__((swift_name("isCreated(context:)")));
 @property (readonly) PSDKAKoin_coreBeanDefinition<T> *beanDefinition __attribute__((swift_name("beanDefinition")));
 @end
 
@@ -1461,11 +1547,11 @@ __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Koin_coreSingleInstanceFactory")))
 @interface PSDKAKoin_coreSingleInstanceFactory<T> : PSDKAKoin_coreInstanceFactory<T>
 - (instancetype)initWithBeanDefinition:(PSDKAKoin_coreBeanDefinition<T> *)beanDefinition __attribute__((swift_name("init(beanDefinition:)"))) __attribute__((objc_designated_initializer));
-- (T _Nullable)createContext:(PSDKAKoin_coreInstanceContext *)context __attribute__((swift_name("create(context:)")));
+- (T _Nullable)createContext:(PSDKAKoin_coreResolutionContext *)context __attribute__((swift_name("create(context:)")));
 - (void)dropScope:(PSDKAKoin_coreScope * _Nullable)scope __attribute__((swift_name("drop(scope:)")));
 - (void)dropAll __attribute__((swift_name("dropAll()")));
-- (T _Nullable)getContext:(PSDKAKoin_coreInstanceContext *)context __attribute__((swift_name("get(context:)")));
-- (BOOL)isCreatedContext:(PSDKAKoin_coreInstanceContext * _Nullable)context __attribute__((swift_name("isCreated(context:)")));
+- (T _Nullable)getContext:(PSDKAKoin_coreResolutionContext *)context __attribute__((swift_name("get(context:)")));
+- (BOOL)isCreatedContext:(PSDKAKoin_coreResolutionContext * _Nullable)context __attribute__((swift_name("isCreated(context:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -1514,6 +1600,7 @@ __attribute__((swift_name("Koin_coreLevel")))
 @property (class, readonly) PSDKAKoin_coreLevel *error __attribute__((swift_name("error")));
 @property (class, readonly) PSDKAKoin_coreLevel *none __attribute__((swift_name("none")));
 + (PSDKAKotlinArray<PSDKAKoin_coreLevel *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<PSDKAKoin_coreLevel *> *entries __attribute__((swift_name("entries")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -1543,10 +1630,11 @@ __attribute__((swift_name("Koin_coreKoin")))
 - (PSDKAKoin_coreScope * _Nullable)getScopeOrNullScopeId:(NSString *)scopeId __attribute__((swift_name("getScopeOrNull(scopeId:)")));
 - (id<PSDKAKotlinLazy>)injectQualifier:(id<PSDKAKoin_coreQualifier> _Nullable)qualifier mode:(PSDKAKotlinLazyThreadSafetyMode *)mode parameters:(PSDKAKoin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("inject(qualifier:mode:parameters:)")));
 - (id<PSDKAKotlinLazy>)injectOrNullQualifier:(id<PSDKAKoin_coreQualifier> _Nullable)qualifier mode:(PSDKAKotlinLazyThreadSafetyMode *)mode parameters:(PSDKAKoin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("injectOrNull(qualifier:mode:parameters:)")));
-- (void)loadModulesModules:(NSArray<PSDKAKoin_coreModule *> *)modules allowOverride:(BOOL)allowOverride __attribute__((swift_name("loadModules(modules:allowOverride:)")));
+- (void)loadModulesModules:(NSArray<PSDKAKoin_coreModule *> *)modules allowOverride:(BOOL)allowOverride createEagerInstances:(BOOL)createEagerInstances __attribute__((swift_name("loadModules(modules:allowOverride:createEagerInstances:)")));
 - (void)setPropertyKey:(NSString *)key value:(id)value __attribute__((swift_name("setProperty(key:value:)")));
 - (void)setupLoggerLogger:(PSDKAKoin_coreLogger *)logger __attribute__((swift_name("setupLogger(logger:)")));
 - (void)unloadModulesModules:(NSArray<PSDKAKoin_coreModule *> *)modules __attribute__((swift_name("unloadModules(modules:)")));
+@property (readonly) PSDKAKoin_coreExtensionManager *extensionManager __attribute__((swift_name("extensionManager")));
 @property (readonly) PSDKAKoin_coreInstanceRegistry *instanceRegistry __attribute__((swift_name("instanceRegistry")));
 @property (readonly) PSDKAKoin_coreLogger *logger __attribute__((swift_name("logger")));
 @property (readonly) PSDKAKoin_corePropertyRegistry *propertyRegistry __attribute__((swift_name("propertyRegistry")));
@@ -2082,20 +2170,9 @@ __attribute__((swift_name("Koin_coreScopeCallback")))
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Koin_coreParametersHolder.Companion")))
-@interface PSDKAKoin_coreParametersHolderCompanion : PSDKABase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) PSDKAKoin_coreParametersHolderCompanion *shared __attribute__((swift_name("shared")));
-@property (readonly) int32_t MAX_PARAMS __attribute__((swift_name("MAX_PARAMS")));
-@end
-
-__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Koin_coreBeanDefinition")))
 @interface PSDKAKoin_coreBeanDefinition<T> : PSDKABase
 - (instancetype)initWithScopeQualifier:(id<PSDKAKoin_coreQualifier>)scopeQualifier primaryType:(id<PSDKAKotlinKClass>)primaryType qualifier:(id<PSDKAKoin_coreQualifier> _Nullable)qualifier definition:(T _Nullable (^)(PSDKAKoin_coreScope *, PSDKAKoin_coreParametersHolder *))definition kind:(PSDKAKoin_coreKind *)kind secondaryTypes:(NSArray<id<PSDKAKotlinKClass>> *)secondaryTypes __attribute__((swift_name("init(scopeQualifier:primaryType:qualifier:definition:kind:secondaryTypes:)"))) __attribute__((objc_designated_initializer));
-- (PSDKAKoin_coreBeanDefinition<T> *)doCopyScopeQualifier:(id<PSDKAKoin_coreQualifier>)scopeQualifier primaryType:(id<PSDKAKotlinKClass>)primaryType qualifier:(id<PSDKAKoin_coreQualifier> _Nullable)qualifier definition:(T _Nullable (^)(PSDKAKoin_coreScope *, PSDKAKoin_coreParametersHolder *))definition kind:(PSDKAKoin_coreKind *)kind secondaryTypes:(NSArray<id<PSDKAKotlinKClass>> *)secondaryTypes __attribute__((swift_name("doCopy(scopeQualifier:primaryType:qualifier:definition:kind:secondaryTypes:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (BOOL)hasTypeClazz:(id<PSDKAKotlinKClass>)clazz __attribute__((swift_name("hasType(clazz:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -2121,11 +2198,14 @@ __attribute__((swift_name("Koin_coreInstanceFactoryCompanion")))
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Koin_coreInstanceContext")))
-@interface PSDKAKoin_coreInstanceContext : PSDKABase
-- (instancetype)initWithKoin:(PSDKAKoin_coreKoin *)koin scope:(PSDKAKoin_coreScope *)scope parameters:(PSDKAKoin_coreParametersHolder * _Nullable)parameters __attribute__((swift_name("init(koin:scope:parameters:)"))) __attribute__((objc_designated_initializer));
-@property (readonly) PSDKAKoin_coreKoin *koin __attribute__((swift_name("koin")));
+__attribute__((swift_name("Koin_coreResolutionContext")))
+@interface PSDKAKoin_coreResolutionContext : PSDKABase
+- (instancetype)initWithLogger:(PSDKAKoin_coreLogger *)logger scope:(PSDKAKoin_coreScope *)scope clazz:(id<PSDKAKotlinKClass>)clazz qualifier:(id<PSDKAKoin_coreQualifier> _Nullable)qualifier parameters:(PSDKAKoin_coreParametersHolder * _Nullable)parameters __attribute__((swift_name("init(logger:scope:clazz:qualifier:parameters:)"))) __attribute__((objc_designated_initializer));
+@property (readonly) id<PSDKAKotlinKClass> clazz __attribute__((swift_name("clazz")));
+@property (readonly) NSString *debugTag __attribute__((swift_name("debugTag")));
+@property (readonly) PSDKAKoin_coreLogger *logger __attribute__((swift_name("logger")));
 @property (readonly) PSDKAKoin_coreParametersHolder * _Nullable parameters __attribute__((swift_name("parameters")));
+@property (readonly) id<PSDKAKoin_coreQualifier> _Nullable qualifier __attribute__((swift_name("qualifier")));
 @property (readonly) PSDKAKoin_coreScope *scope __attribute__((swift_name("scope")));
 @end
 
@@ -2138,8 +2218,17 @@ __attribute__((swift_name("Koin_coreKoinComponent")))
 __attribute__((swift_name("Koin_coreKoinScopeComponent")))
 @protocol PSDKAKoin_coreKoinScopeComponent <PSDKAKoin_coreKoinComponent>
 @required
-- (void)closeScope __attribute__((swift_name("closeScope()")));
 @property (readonly) PSDKAKoin_coreScope *scope __attribute__((swift_name("scope")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Koin_coreExtensionManager")))
+@interface PSDKAKoin_coreExtensionManager : PSDKABase
+- (instancetype)initWith_koin:(PSDKAKoin_coreKoin *)_koin __attribute__((swift_name("init(_koin:)"))) __attribute__((objc_designated_initializer));
+- (void)close __attribute__((swift_name("close()")));
+- (id<PSDKAKoin_coreKoinExtension>)getExtensionId:(NSString *)id __attribute__((swift_name("getExtension(id:)")));
+- (id<PSDKAKoin_coreKoinExtension> _Nullable)getExtensionOrNullId:(NSString *)id __attribute__((swift_name("getExtensionOrNull(id:)")));
+- (void)registerExtensionId:(NSString *)id extension:(id<PSDKAKoin_coreKoinExtension>)extension __attribute__((swift_name("registerExtension(id:extension:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -2718,6 +2807,7 @@ __attribute__((swift_name("Koin_coreKind")))
 @property (class, readonly) PSDKAKoin_coreKind *factory __attribute__((swift_name("factory")));
 @property (class, readonly) PSDKAKoin_coreKind *scoped __attribute__((swift_name("scoped")));
 + (PSDKAKotlinArray<PSDKAKoin_coreKind *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<PSDKAKoin_coreKind *> *entries __attribute__((swift_name("entries")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -2729,6 +2819,13 @@ __attribute__((swift_name("Koin_coreCallbacks")))
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) void (^ _Nullable onClose)(T _Nullable) __attribute__((swift_name("onClose")));
+@end
+
+__attribute__((swift_name("Koin_coreKoinExtension")))
+@protocol PSDKAKoin_coreKoinExtension
+@required
+- (void)onClose __attribute__((swift_name("onClose()")));
+- (void)onRegisterKoin:(PSDKAKoin_coreKoin *)koin __attribute__((swift_name("onRegister(koin:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))

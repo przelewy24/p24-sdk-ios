@@ -1,6 +1,5 @@
-framework module P24SDKAll {
+framework module "P24SDKAll" {
     umbrella header "P24SDKAll.h"
-
     export *
     module * { export * }
 }

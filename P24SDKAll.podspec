@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
     spec.name                     = 'P24SDKAll'
-    spec.version                  = '0.4.6'
+    spec.version                  = '0.5.0'
     spec.homepage                 = 'https://p24.pl'
     spec.source                   = { :http=> ''}
     spec.authors                  = ''
@@ -8,7 +8,8 @@ Pod::Spec.new do |spec|
     spec.summary                  = 'P24 SDK'
     spec.vendored_frameworks      = 'P24SDKAll.xcframework'
     spec.libraries                = 'c++'
-    spec.ios.deployment_target = '12.0'
+    spec.ios.deployment_target    = '12.0'
+                
                 
                 
                 
