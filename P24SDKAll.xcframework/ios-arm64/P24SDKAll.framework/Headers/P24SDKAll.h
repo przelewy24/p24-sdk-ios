@@ -1473,7 +1473,7 @@ __attribute__((swift_name("Koin_coreScope")))
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 + (instancetype)new __attribute__((unavailable));
 - (void)close __attribute__((swift_name("close()")));
-- (void)declareInstance:(id _Nullable)instance qualifier:(id<PSDKAKoin_coreQualifier> _Nullable)qualifier secondaryTypes:(NSArray<id<PSDKAKotlinKClass>> *)secondaryTypes allowOverride:(BOOL)allowOverride __attribute__((swift_name("declare(instance:qualifier:secondaryTypes:allowOverride:)")));
+- (void)declareInstance:(id _Nullable)instance qualifier:(id<PSDKAKoin_coreQualifier> _Nullable)qualifier secondaryTypes:(NSArray<id<PSDKAKotlinKClass>> *)secondaryTypes allowOverride:(BOOL)allowOverride holdInstance:(BOOL)holdInstance __attribute__((swift_name("declare(instance:qualifier:secondaryTypes:allowOverride:holdInstance:)")));
 - (id)getQualifier:(id<PSDKAKoin_coreQualifier> _Nullable)qualifier parameters:(PSDKAKoin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("get(qualifier:parameters:)")));
 - (id _Nullable)getClazz:(id<PSDKAKotlinKClass>)clazz qualifier:(id<PSDKAKoin_coreQualifier> _Nullable)qualifier parameters:(PSDKAKoin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("get(clazz:qualifier:parameters:)")));
 - (NSArray<id> *)getAll __attribute__((swift_name("getAll()")));
