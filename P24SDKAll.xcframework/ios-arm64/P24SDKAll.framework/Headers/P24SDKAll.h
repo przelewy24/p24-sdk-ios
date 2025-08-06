@@ -6,7 +6,7 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class PSDKACardChargeModule, PSDKAKotlinEnumCompanion, PSDKAKotlinEnum<E>, PSDKAEnvironment, PSDKAKotlinArray<T>, PSDKAP24, UIView, PSDKADownloadConfigStatus, PSDKATimeoutEvent, PSDKACardRequest, PSDKACardRequestBuilder, PSDKACardRequestEvent, PSDKACardRequestEventNeed3DS, PSDKACardRequestEventProcessCanceled, PSDKACardRequestEventProcessCompleted, PSDKACardRequestEventProcessError, PSDKACardRequestEventProcessStarted, PSDKABorderStyle, PSDKAButtonStyle, PSDKACardOrganization, PSDKACardTokenizeModule, PSDKACheckBoxStyle, PSDKAInputStyle, PSDKAFormStyle, PSDKATOSCheckbox, PSDKATermsOfServiceConfig, PSDKATokenizationMode, PSDKATokenizedCard, PSDKATokenizeCardRequestBuilder, PSDKATokenizeCardRequest, PSDKACardOrganizationsIcons, PSDKAMastercardLogo, PSDKATosText, PSDKAVisaLogo, PSDKAConfig, PSDKAMakeGetRequest, PSDKADecodeFromJsonString, PSDKAP24Token, PSDKAEither<__covariant A, __covariant B>, PSDKAKotlinNothing, PSDKAInstallmentsModule, PSDKAInstallmentsRequestBuilder, PSDKAInstallmentsRequest, PSDKACloseIcon, PSDKAP24Logo, PSDKAKtor_client_coreHttpClient, PSDKAKotlinx_serialization_jsonJson, PSDKAResponse, PSDKABaseClient, PSDKAPostErrorNoConnection, PSDKAPostErrorServerError, UIViewController, PSDKAKtor_client_loggingLoggerCompanion, PSDKAKotlinx_serialization_jsonJsonElement, NSAttributedString, PSDKAKoin_coreModule, PSDKAKoin_coreKoinApplication, PSDKAKotlinCancellationException, PSDKAKotlinThrowable, PSDKAKotlinException, PSDKAKotlinRuntimeException, PSDKAKotlinIllegalStateException, PSDKAKtor_client_coreHttpClientEngineConfig, PSDKAKtor_client_coreHttpClientConfig<T>, PSDKAKtor_eventsEvents, PSDKAKtor_client_coreHttpReceivePipeline, PSDKAKtor_client_coreHttpRequestPipeline, PSDKAKtor_client_coreHttpResponsePipeline, PSDKAKtor_client_coreHttpSendPipeline, PSDKAKotlinx_serialization_coreSerializersModule, PSDKAKotlinx_serialization_jsonJsonDefault, PSDKAKotlinx_serialization_jsonJsonConfiguration, PSDKAKotlinx_serialization_jsonJsonElementCompanion, PSDKAKoin_coreKoinDefinition<R>, PSDKAKoin_coreScope, PSDKAKoin_coreParametersHolder, PSDKAKoin_coreInstanceFactory<T>, PSDKAKoin_coreSingleInstanceFactory<T>, PSDKAKoin_coreScopeDSL, PSDKAKoin_coreKoinApplicationCompanion, PSDKAKoin_coreLogger, PSDKAKoin_coreLevel, PSDKAKoin_coreKoin, PSDKAKotlinUnit, PSDKAKtor_client_coreHttpRequestData, PSDKAKtor_client_coreHttpResponseData, PSDKAKotlinx_coroutines_coreCoroutineDispatcher, PSDKAKtor_client_coreProxyConfig, PSDKAKtor_utilsAttributeKey<T>, PSDKAKtor_eventsEventDefinition<T>, PSDKAKtor_utilsPipelinePhase, PSDKAKtor_utilsPipeline<TSubject, TContext>, PSDKAKtor_client_coreHttpReceivePipelinePhases, PSDKAKtor_client_coreHttpResponse, PSDKAKtor_client_coreHttpRequestPipelinePhases, PSDKAKtor_client_coreHttpRequestBuilder, PSDKAKtor_client_coreHttpResponsePipelinePhases, PSDKAKtor_client_coreHttpResponseContainer, PSDKAKtor_client_coreHttpClientCall, PSDKAKtor_client_coreHttpSendPipelinePhases, PSDKAKoin_coreLockable, PSDKAKotlinLazyThreadSafetyMode, PSDKAKoin_coreBeanDefinition<T>, PSDKAKoin_coreInstanceFactoryCompanion, PSDKAKoin_coreResolutionContext, PSDKAKoin_coreExtensionManager, PSDKAKoin_coreInstanceRegistry, PSDKAKoin_corePropertyRegistry, PSDKAKoin_coreScopeRegistry, PSDKAKtor_httpUrl, PSDKAKtor_httpHttpMethod, PSDKAKtor_httpOutgoingContent, PSDKAKtor_httpHttpStatusCode, PSDKAKtor_utilsGMTDate, PSDKAKtor_httpHttpProtocolVersion, PSDKAKotlinAbstractCoroutineContextElement, PSDKAKotlinx_coroutines_coreCoroutineDispatcherKey, PSDKAKtor_httpHeadersBuilder, PSDKAKtor_client_coreHttpRequestBuilderCompanion, PSDKAKtor_httpURLBuilder, PSDKAKtor_utilsTypeInfo, PSDKAKtor_client_coreHttpClientCallCompanion, PSDKAKotlinx_serialization_coreSerialKind, PSDKAKoin_coreKind, PSDKAKoin_coreCallbacks<T>, PSDKAKoin_coreScopeRegistryCompanion, PSDKAKtor_httpUrlCompanion, PSDKAKtor_httpURLProtocol, PSDKAKtor_httpHttpMethodCompanion, PSDKAKtor_httpContentType, PSDKAKtor_httpHttpStatusCodeCompanion, PSDKAKtor_utilsGMTDateCompanion, PSDKAKtor_utilsWeekDay, PSDKAKtor_utilsMonth, PSDKAKtor_httpHttpProtocolVersionCompanion, PSDKAKotlinAbstractCoroutineContextKey<B, E>, PSDKAKtor_ioMemory, PSDKAKtor_ioChunkBuffer, PSDKAKtor_ioBuffer, PSDKAKotlinByteArray, PSDKAKtor_ioByteReadPacket, PSDKAKtor_utilsStringValuesBuilderImpl, PSDKAKtor_httpURLBuilderCompanion, PSDKAKtor_httpURLProtocolCompanion, PSDKAKtor_httpHeaderValueParam, PSDKAKtor_httpHeaderValueWithParametersCompanion, PSDKAKtor_httpHeaderValueWithParameters, PSDKAKtor_httpContentTypeCompanion, PSDKAKtor_utilsWeekDayCompanion, PSDKAKtor_utilsMonthCompanion, PSDKAKtor_ioMemoryCompanion, PSDKAKtor_ioBufferCompanion, PSDKAKtor_ioChunkBufferCompanion, PSDKAKotlinByteIterator, PSDKAKtor_ioInputCompanion, PSDKAKtor_ioInput, PSDKAKtor_ioByteReadPacketCompanion, PSDKAKotlinKTypeProjection, PSDKAKotlinKVariance, PSDKAKotlinKTypeProjectionCompanion;
+@class PSDKACardChargeModule, PSDKAKotlinEnumCompanion, PSDKAKotlinEnum<E>, PSDKAEnvironment, PSDKAKotlinArray<T>, PSDKAP24, UIView, PSDKADownloadConfigStatus, PSDKATimeoutEvent, PSDKACardRequest, PSDKACardRequestBuilder, PSDKACardRequestEvent, PSDKACardRequestEventNeed3DS, PSDKACardRequestEventProcessCanceled, PSDKACardRequestEventProcessCompleted, PSDKACardRequestEventProcessError, PSDKACardRequestEventProcessStarted, PSDKABorderStyle, PSDKAButtonStyle, PSDKACardOrganization, PSDKACardTokenizeModule, PSDKACheckBoxStyle, PSDKAInputStyle, PSDKAFormStyle, PSDKATOSCheckbox, PSDKATermsOfServiceConfig, PSDKATokenizationMode, PSDKATokenizedCard, PSDKATokenizeCardRequestBuilder, PSDKATokenizeCardRequest, PSDKACardOrganizationsIcons, PSDKAMastercardLogo, PSDKAVisaLogo, PSDKAConfig, PSDKAMakeGetRequest, PSDKADecodeFromJsonString, PSDKAP24Token, PSDKAEither<__covariant A, __covariant B>, PSDKAKotlinNothing, PSDKAInstallmentsModule, PSDKAInstallmentsRequestBuilder, PSDKAInstallmentsRequest, PSDKACloseIcon, PSDKAP24Logo, PSDKAKtor_client_coreHttpClient, PSDKAKotlinx_serialization_jsonJson, PSDKAResponse, PSDKABaseClient, PSDKAPostErrorNoConnection, PSDKAPostErrorServerError, PSDKAStrings, PSDKAStringsLanguage, UIViewController, PSDKAKtor_client_loggingLoggerCompanion, PSDKAKotlinx_serialization_jsonJsonElement, NSAttributedString, PSDKAKoin_coreModule, PSDKAKoin_coreKoinApplication, PSDKAKotlinCancellationException, PSDKAKotlinThrowable, PSDKAKotlinException, PSDKAKotlinRuntimeException, PSDKAKotlinIllegalStateException, PSDKAKtor_client_coreHttpClientEngineConfig, PSDKAKtor_client_coreHttpClientConfig<T>, PSDKAKtor_eventsEvents, PSDKAKtor_client_coreHttpReceivePipeline, PSDKAKtor_client_coreHttpRequestPipeline, PSDKAKtor_client_coreHttpResponsePipeline, PSDKAKtor_client_coreHttpSendPipeline, PSDKAKotlinx_serialization_coreSerializersModule, PSDKAKotlinx_serialization_jsonJsonDefault, PSDKAKotlinx_serialization_jsonJsonConfiguration, PSDKAKotlinx_serialization_jsonJsonElementCompanion, PSDKAKoin_coreKoinDefinition<R>, PSDKAKoin_coreScope, PSDKAKoin_coreParametersHolder, PSDKAKoin_coreInstanceFactory<T>, PSDKAKoin_coreSingleInstanceFactory<T>, PSDKAKoin_coreScopeDSL, PSDKAKoin_coreKoinApplicationCompanion, PSDKAKoin_coreLogger, PSDKAKoin_coreLevel, PSDKAKoin_coreKoin, PSDKAKotlinUnit, PSDKAKtor_client_coreHttpRequestData, PSDKAKtor_client_coreHttpResponseData, PSDKAKotlinx_coroutines_coreCoroutineDispatcher, PSDKAKtor_client_coreProxyConfig, PSDKAKtor_utilsAttributeKey<T>, PSDKAKtor_eventsEventDefinition<T>, PSDKAKtor_utilsPipelinePhase, PSDKAKtor_utilsPipeline<TSubject, TContext>, PSDKAKtor_client_coreHttpReceivePipelinePhases, PSDKAKtor_client_coreHttpResponse, PSDKAKtor_client_coreHttpRequestPipelinePhases, PSDKAKtor_client_coreHttpRequestBuilder, PSDKAKtor_client_coreHttpResponsePipelinePhases, PSDKAKtor_client_coreHttpResponseContainer, PSDKAKtor_client_coreHttpClientCall, PSDKAKtor_client_coreHttpSendPipelinePhases, PSDKAKoin_coreLockable, PSDKAKotlinLazyThreadSafetyMode, PSDKAKoin_coreBeanDefinition<T>, PSDKAKoin_coreInstanceFactoryCompanion, PSDKAKoin_coreResolutionContext, PSDKAKoin_coreExtensionManager, PSDKAKoin_coreInstanceRegistry, PSDKAKoin_corePropertyRegistry, PSDKAKoin_coreScopeRegistry, PSDKAKtor_httpUrl, PSDKAKtor_httpHttpMethod, PSDKAKtor_httpOutgoingContent, PSDKAKtor_httpHttpStatusCode, PSDKAKtor_utilsGMTDate, PSDKAKtor_httpHttpProtocolVersion, PSDKAKotlinAbstractCoroutineContextElement, PSDKAKotlinx_coroutines_coreCoroutineDispatcherKey, PSDKAKtor_httpHeadersBuilder, PSDKAKtor_client_coreHttpRequestBuilderCompanion, PSDKAKtor_httpURLBuilder, PSDKAKtor_utilsTypeInfo, PSDKAKtor_client_coreHttpClientCallCompanion, PSDKAKotlinx_serialization_coreSerialKind, PSDKAKoin_coreKind, PSDKAKoin_coreCallbacks<T>, PSDKAKoin_coreScopeRegistryCompanion, PSDKAKtor_httpUrlCompanion, PSDKAKtor_httpURLProtocol, PSDKAKtor_httpHttpMethodCompanion, PSDKAKtor_httpContentType, PSDKAKtor_httpHttpStatusCodeCompanion, PSDKAKtor_utilsGMTDateCompanion, PSDKAKtor_utilsWeekDay, PSDKAKtor_utilsMonth, PSDKAKtor_httpHttpProtocolVersionCompanion, PSDKAKotlinAbstractCoroutineContextKey<B, E>, PSDKAKtor_ioMemory, PSDKAKtor_ioChunkBuffer, PSDKAKtor_ioBuffer, PSDKAKotlinByteArray, PSDKAKtor_ioByteReadPacket, PSDKAKtor_utilsStringValuesBuilderImpl, PSDKAKtor_httpURLBuilderCompanion, PSDKAKtor_httpURLProtocolCompanion, PSDKAKtor_httpHeaderValueParam, PSDKAKtor_httpHeaderValueWithParametersCompanion, PSDKAKtor_httpHeaderValueWithParameters, PSDKAKtor_httpContentTypeCompanion, PSDKAKtor_utilsWeekDayCompanion, PSDKAKtor_utilsMonthCompanion, PSDKAKtor_ioMemoryCompanion, PSDKAKtor_ioBufferCompanion, PSDKAKtor_ioChunkBufferCompanion, PSDKAKotlinByteIterator, PSDKAKtor_ioInputCompanion, PSDKAKtor_ioInput, PSDKAKtor_ioByteReadPacketCompanion, PSDKAKotlinKTypeProjection, PSDKAKotlinKVariance, PSDKAKotlinKTypeProjectionCompanion;
 
 @protocol PSDKASdkModule, PSDKAKotlinComparable, PSDKAKotlinx_coroutines_coreJob, PSDKACardRequestCallback, PSDKATokenizationCallback, PSDKAInstallmentsCallback, PSDKAPostError, PSDKAKotlinCoroutineContext, PSDKAKotlinx_coroutines_coreCoroutineScope, PSDKAKotlinx_coroutines_coreFlow, PSDKAKotlinx_coroutines_coreMutableSharedFlow, PSDKAEvent, PSDKAKtor_client_loggingLogger, PSDKAKotlinLazy, PSDKAKotlinIterator, PSDKAKotlinx_coroutines_coreChildHandle, PSDKAKotlinx_coroutines_coreChildJob, PSDKAKotlinx_coroutines_coreDisposableHandle, PSDKAKotlinSequence, PSDKAKotlinx_coroutines_coreSelectClause0, PSDKAKotlinCoroutineContextKey, PSDKAKotlinCoroutineContextElement, PSDKAKtor_ioCloseable, PSDKAKtor_client_coreHttpClientEngine, PSDKAKtor_client_coreHttpClientEngineCapability, PSDKAKtor_utilsAttributes, PSDKAKotlinx_serialization_coreDeserializationStrategy, PSDKAKotlinx_serialization_coreSerializationStrategy, PSDKAKotlinx_serialization_coreSerialFormat, PSDKAKotlinx_serialization_coreStringFormat, PSDKAKotlinx_coroutines_coreFlowCollector, PSDKAKotlinx_coroutines_coreStateFlow, PSDKAKotlinx_coroutines_coreSharedFlow, PSDKAKoin_coreQualifier, PSDKAKotlinx_coroutines_coreParentJob, PSDKAKotlinx_coroutines_coreSelectInstance, PSDKAKotlinx_coroutines_coreSelectClause, PSDKAKtor_client_coreHttpClientPlugin, PSDKAKotlinSuspendFunction2, PSDKAKotlinx_serialization_coreDecoder, PSDKAKotlinx_serialization_coreSerialDescriptor, PSDKAKotlinx_serialization_coreEncoder, PSDKAKotlinx_serialization_coreSerializersModuleCollector, PSDKAKotlinx_serialization_coreKSerializer, PSDKAKotlinKClass, PSDKAKotlinx_serialization_jsonJsonNamingStrategy, PSDKAKoin_coreScopeCallback, PSDKAKoin_coreKoinScopeComponent, PSDKAKtor_httpHeaders, PSDKAKotlinContinuation, PSDKAKotlinContinuationInterceptor, PSDKAKotlinx_coroutines_coreRunnable, PSDKAKotlinFunction, PSDKAKtor_httpHttpMessage, PSDKAKtor_ioByteReadChannel, PSDKAKtor_httpHttpMessageBuilder, PSDKAKtor_client_coreHttpRequest, PSDKAKotlinx_serialization_coreCompositeDecoder, PSDKAKotlinAnnotation, PSDKAKotlinx_serialization_coreCompositeEncoder, PSDKAKotlinKDeclarationContainer, PSDKAKotlinKAnnotatedElement, PSDKAKotlinKClassifier, PSDKAKoin_coreKoinComponent, PSDKAKoin_coreKoinExtension, PSDKAKtor_httpParameters, PSDKAKotlinMapEntry, PSDKAKtor_utilsStringValues, PSDKAKtor_ioReadSession, PSDKAKotlinSuspendFunction1, PSDKAKotlinAppendable, PSDKAKtor_utilsStringValuesBuilder, PSDKAKtor_httpParametersBuilder, PSDKAKotlinKType, PSDKAKtor_ioObjectPool;
 
@@ -523,16 +523,6 @@ __attribute__((swift_name("MastercardLogo")))
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("TosText")))
-@interface PSDKATosText : PSDKABase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)tosText __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) PSDKATosText *shared __attribute__((swift_name("shared")));
-@property (readonly) NSString *VALUE __attribute__((swift_name("VALUE")));
-@end
-
-__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("VisaLogo")))
 @interface PSDKAVisaLogo : PSDKABase
 + (instancetype)alloc __attribute__((unavailable));
@@ -745,6 +735,48 @@ __attribute__((swift_name("Response")))
 @property (readonly) int32_t statusCode __attribute__((swift_name("statusCode")));
 @end
 
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Strings")))
+@interface PSDKAStrings : PSDKABase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)strings __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) PSDKAStrings *shared __attribute__((swift_name("shared")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("StringsLanguage")))
+@interface PSDKAStringsLanguage : PSDKAKotlinEnum<PSDKAStringsLanguage *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly) PSDKAStringsLanguage *pl __attribute__((swift_name("pl")));
+@property (class, readonly) PSDKAStringsLanguage *bg __attribute__((swift_name("bg")));
+@property (class, readonly) PSDKAStringsLanguage *cz __attribute__((swift_name("cz")));
+@property (class, readonly) PSDKAStringsLanguage *de __attribute__((swift_name("de")));
+@property (class, readonly) PSDKAStringsLanguage *ee __attribute__((swift_name("ee")));
+@property (class, readonly) PSDKAStringsLanguage *en __attribute__((swift_name("en")));
+@property (class, readonly) PSDKAStringsLanguage *es __attribute__((swift_name("es")));
+@property (class, readonly) PSDKAStringsLanguage *fi __attribute__((swift_name("fi")));
+@property (class, readonly) PSDKAStringsLanguage *fr __attribute__((swift_name("fr")));
+@property (class, readonly) PSDKAStringsLanguage *gr __attribute__((swift_name("gr")));
+@property (class, readonly) PSDKAStringsLanguage *hr __attribute__((swift_name("hr")));
+@property (class, readonly) PSDKAStringsLanguage *hu __attribute__((swift_name("hu")));
+@property (class, readonly) PSDKAStringsLanguage *it __attribute__((swift_name("it")));
+@property (class, readonly) PSDKAStringsLanguage *lt __attribute__((swift_name("lt")));
+@property (class, readonly) PSDKAStringsLanguage *lv __attribute__((swift_name("lv")));
+@property (class, readonly) PSDKAStringsLanguage *pt __attribute__((swift_name("pt")));
+@property (class, readonly) PSDKAStringsLanguage *ro __attribute__((swift_name("ro")));
+@property (class, readonly) PSDKAStringsLanguage *rs __attribute__((swift_name("rs")));
+@property (class, readonly) PSDKAStringsLanguage *ru __attribute__((swift_name("ru")));
+@property (class, readonly) PSDKAStringsLanguage *se __attribute__((swift_name("se")));
+@property (class, readonly) PSDKAStringsLanguage *sk __attribute__((swift_name("sk")));
+@property (class, readonly) PSDKAStringsLanguage *sl __attribute__((swift_name("sl")));
+@property (class, readonly) PSDKAStringsLanguage *ua __attribute__((swift_name("ua")));
++ (PSDKAKotlinArray<PSDKAStringsLanguage *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<PSDKAStringsLanguage *> *entries __attribute__((swift_name("entries")));
+@end
+
 __attribute__((swift_name("Kotlinx_coroutines_coreCoroutineScope")))
 @protocol PSDKAKotlinx_coroutines_coreCoroutineScope
 @required
@@ -885,6 +917,12 @@ __attribute__((swift_name("SdkModuleKt")))
 @interface PSDKASdkModuleKt : PSDKABase
 + (id<PSDKAKotlinLazy>)sdkInject __attribute__((swift_name("sdkInject()")));
 @property (class, readonly) PSDKAKoin_coreKoinApplication *sdkContext __attribute__((swift_name("sdkContext")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("StringsKt")))
+@interface PSDKAStringsKt : PSDKABase
++ (NSString *)translationBlock:(NSString *(^)(PSDKAStringsLanguage *))block __attribute__((swift_name("translation(block:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
