@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "P24SDK",
     platforms: [
-        .ios(.v13) 
+        .ios(.v12) 
     ],
     products: [
         .library(
