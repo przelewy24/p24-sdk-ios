@@ -1,10 +1,10 @@
-// swift-tools-version:5.5
+// swift-tools-version: 5.6
 import PackageDescription
 
 let package = Package(
     name: "P24SDK",
     platforms: [
-        .ios(.v12) 
+        .iOS(.v13)
     ],
     products: [
         .library(
