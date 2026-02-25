@@ -493,6 +493,7 @@ __attribute__((swift_name("TokenizeCardRequestBuilder")))
 - (PSDKATokenizeCardRequestBuilder *)allowedTokenizationModesModes:(NSArray<PSDKATokenizationMode *> *)modes __attribute__((swift_name("allowedTokenizationModes(modes:)")));
 - (PSDKATokenizeCardRequest *)build __attribute__((swift_name("build()")));
 - (PSDKATokenizeCardRequestBuilder *)callbackCallback:(id<PSDKATokenizationCallback>)callback __attribute__((swift_name("callback(callback:)")));
+- (PSDKATokenizeCardRequestBuilder *)disableScreenshotsDisable:(BOOL)disable __attribute__((swift_name("disableScreenshots(disable:)")));
 - (PSDKATokenizeCardRequestBuilder *)environmentEnvironment:(PSDKAEnvironment *)environment __attribute__((swift_name("environment(environment:)")));
 - (PSDKATokenizeCardRequestBuilder *)formStyleStyle:(PSDKAFormStyle *)style __attribute__((swift_name("formStyle(style:)")));
 - (PSDKATokenizeCardRequestBuilder *)merchantIdId:(int32_t)id __attribute__((swift_name("merchantId(id:)")));
