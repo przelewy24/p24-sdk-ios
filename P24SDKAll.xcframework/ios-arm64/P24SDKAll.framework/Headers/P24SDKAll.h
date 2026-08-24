@@ -6,9 +6,9 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class PSDKACardChargeModule, PSDKAKotlinEnumCompanion, PSDKAKotlinEnum<E>, PSDKAEnvironment, PSDKAKotlinArray<T>, PSDKAP24, UIView, PSDKADownloadConfigStatus, PSDKATimeoutEvent, PSDKACardRequest, PSDKACardRequestBuilder, PSDKACardRequestEvent, PSDKACardRequestEventNeed3DS, PSDKACardRequestEventProcessCanceled, PSDKACardRequestEventProcessCompleted, PSDKACardRequestEventProcessError, PSDKACardRequestEventProcessStarted, PSDKABorderStyle, PSDKAButtonStyle, PSDKACardOrganization, PSDKACardTokenizeModule, PSDKACheckBoxStyle, PSDKAInputStyle, PSDKAFormStyle, PSDKATOSCheckbox, PSDKATermsOfServiceConfig, PSDKATokenizationMode, PSDKATokenizedCard, PSDKATokenizeCardRequestBuilder, PSDKATokenizeCardRequest, PSDKACardOrganizationsIcons, PSDKAMastercardLogo, PSDKAVisaLogo, PSDKAConfig, PSDKAMakeGetRequest, PSDKADecodeFromJsonString, PSDKAP24Token, PSDKAEither<__covariant A, __covariant B>, PSDKAKotlinNothing, PSDKAInstallmentsModule, PSDKAInstallmentsRequestBuilder, PSDKAInstallmentsRequest, PSDKACloseIcon, PSDKAP24Logo, PSDKAKtor_client_coreHttpClient, PSDKAKotlinx_serialization_jsonJson, PSDKAResponse, PSDKABaseClient, PSDKAPostErrorNoConnection, PSDKAPostErrorServerError, PSDKAStrings, PSDKAStringsLanguage, UIViewController, PSDKAKtor_client_loggingLoggerCompanion, PSDKAKotlinx_serialization_jsonJsonElement, NSAttributedString, PSDKAKoin_coreModule, PSDKAKoin_coreKoinApplication, PSDKAKotlinCancellationException, PSDKAKotlinThrowable, PSDKAKotlinException, PSDKAKotlinRuntimeException, PSDKAKotlinIllegalStateException, PSDKAKtor_client_coreHttpClientEngineConfig, PSDKAKtor_client_coreHttpClientConfig<T>, PSDKAKtor_eventsEvents, PSDKAKtor_client_coreHttpReceivePipeline, PSDKAKtor_client_coreHttpRequestPipeline, PSDKAKtor_client_coreHttpResponsePipeline, PSDKAKtor_client_coreHttpSendPipeline, PSDKAKotlinx_serialization_coreSerializersModule, PSDKAKotlinx_serialization_jsonJsonDefault, PSDKAKotlinx_serialization_jsonJsonConfiguration, PSDKAKotlinx_serialization_jsonJsonElementCompanion, PSDKAKoin_coreKoinDefinition<R>, PSDKAKoin_coreScope, PSDKAKoin_coreParametersHolder, PSDKAKoin_coreInstanceFactory<T>, PSDKAKoin_coreSingleInstanceFactory<T>, PSDKAKoin_coreScopeDSL, PSDKAKoin_coreKoinApplicationCompanion, PSDKAKoin_coreLogger, PSDKAKoin_coreLevel, PSDKAKoin_coreKoin, PSDKAKotlinUnit, PSDKAKtor_client_coreHttpRequestData, PSDKAKtor_client_coreHttpResponseData, PSDKAKotlinx_coroutines_coreCoroutineDispatcher, PSDKAKtor_client_coreProxyConfig, PSDKAKtor_utilsAttributeKey<T>, PSDKAKtor_eventsEventDefinition<T>, PSDKAKtor_utilsPipelinePhase, PSDKAKtor_utilsPipeline<TSubject, TContext>, PSDKAKtor_client_coreHttpReceivePipelinePhases, PSDKAKtor_client_coreHttpResponse, PSDKAKtor_client_coreHttpRequestPipelinePhases, PSDKAKtor_client_coreHttpRequestBuilder, PSDKAKtor_client_coreHttpResponsePipelinePhases, PSDKAKtor_client_coreHttpResponseContainer, PSDKAKtor_client_coreHttpClientCall, PSDKAKtor_client_coreHttpSendPipelinePhases, PSDKAKoin_coreLockable, PSDKAKotlinLazyThreadSafetyMode, PSDKAKoin_coreBeanDefinition<T>, PSDKAKoin_coreInstanceFactoryCompanion, PSDKAKoin_coreResolutionContext, PSDKAKoin_coreExtensionManager, PSDKAKoin_coreInstanceRegistry, PSDKAKoin_corePropertyRegistry, PSDKAKoin_coreScopeRegistry, PSDKAKtor_httpUrl, PSDKAKtor_httpHttpMethod, PSDKAKtor_httpOutgoingContent, PSDKAKtor_httpHttpStatusCode, PSDKAKtor_utilsGMTDate, PSDKAKtor_httpHttpProtocolVersion, PSDKAKotlinAbstractCoroutineContextElement, PSDKAKotlinx_coroutines_coreCoroutineDispatcherKey, PSDKAKtor_httpHeadersBuilder, PSDKAKtor_client_coreHttpRequestBuilderCompanion, PSDKAKtor_httpURLBuilder, PSDKAKtor_utilsTypeInfo, PSDKAKtor_client_coreHttpClientCallCompanion, PSDKAKotlinx_serialization_coreSerialKind, PSDKAKoin_coreKind, PSDKAKoin_coreCallbacks<T>, PSDKAKoin_coreScopeRegistryCompanion, PSDKAKtor_httpUrlCompanion, PSDKAKtor_httpURLProtocol, PSDKAKtor_httpHttpMethodCompanion, PSDKAKtor_httpContentType, PSDKAKtor_httpHttpStatusCodeCompanion, PSDKAKtor_utilsGMTDateCompanion, PSDKAKtor_utilsWeekDay, PSDKAKtor_utilsMonth, PSDKAKtor_httpHttpProtocolVersionCompanion, PSDKAKotlinAbstractCoroutineContextKey<B, E>, PSDKAKtor_ioMemory, PSDKAKtor_ioChunkBuffer, PSDKAKtor_ioBuffer, PSDKAKotlinByteArray, PSDKAKtor_ioByteReadPacket, PSDKAKtor_utilsStringValuesBuilderImpl, PSDKAKtor_httpURLBuilderCompanion, PSDKAKtor_httpURLProtocolCompanion, PSDKAKtor_httpHeaderValueParam, PSDKAKtor_httpHeaderValueWithParametersCompanion, PSDKAKtor_httpHeaderValueWithParameters, PSDKAKtor_httpContentTypeCompanion, PSDKAKtor_utilsWeekDayCompanion, PSDKAKtor_utilsMonthCompanion, PSDKAKtor_ioMemoryCompanion, PSDKAKtor_ioBufferCompanion, PSDKAKtor_ioChunkBufferCompanion, PSDKAKotlinByteIterator, PSDKAKtor_ioInputCompanion, PSDKAKtor_ioInput, PSDKAKtor_ioByteReadPacketCompanion, PSDKAKotlinKTypeProjection, PSDKAKotlinKVariance, PSDKAKotlinKTypeProjectionCompanion;
+@class PSDKACardChargeModule, PSDKAKotlinEnumCompanion, PSDKAKotlinEnum<E>, PSDKAEnvironment, PSDKAKotlinArray<T>, PSDKAP24, UIView, PSDKADownloadConfigStatus, PSDKATimeoutEvent, PSDKACardRequest, PSDKACardRequestBuilder, PSDKACardRequestEvent, PSDKACardRequestEventNeed3DS, PSDKACardRequestEventProcessCanceled, PSDKACardRequestEventProcessCompleted, PSDKACardRequestEventProcessError, PSDKACardRequestEventProcessStarted, PSDKABorderStyle, PSDKAButtonStyle, PSDKACardOrganization, PSDKACardTokenizeModule, PSDKACheckBoxStyle, PSDKAInputStyle, PSDKAFormStyle, PSDKATOSCheckbox, PSDKATermsOfServiceConfig, PSDKATokenizationMode, PSDKATokenizedCard, PSDKATokenizeCardRequestBuilder, PSDKATokenizeCardRequest, PSDKACardOrganizationsIcons, PSDKAMastercardLogo, PSDKAVisaLogo, PSDKAConfig, PSDKAMakeGetRequest, PSDKADecodeFromJsonString, PSDKAP24Token, PSDKAEither<__covariant A, __covariant B>, PSDKAKotlinNothing, PSDKAInstallmentsModule, PSDKAInstallmentsRequestBuilder, PSDKAInstallmentsRequest, PSDKACloseIcon, PSDKAP24Logo, PSDKAKtor_client_coreHttpClient, PSDKAKotlinx_serialization_jsonJson, PSDKAResponse, PSDKABaseClient, PSDKAPostErrorNoConnection, PSDKAPostErrorServerError, PSDKAStrings, PSDKAStringsLanguage, UIViewController, PSDKAKtor_client_loggingLoggerCompanion, PSDKAKotlinx_serialization_jsonJsonElement, NSAttributedString, PSDKAEmbedded_koin_coreModule, PSDKAEmbedded_koin_coreKoinApplication, PSDKAKotlinCancellationException, PSDKAKotlinThrowable, PSDKAKotlinException, PSDKAKotlinRuntimeException, PSDKAKotlinIllegalStateException, PSDKAKtor_client_coreHttpClientEngineConfig, PSDKAKtor_client_coreHttpClientConfig<T>, PSDKAKtor_eventsEvents, PSDKAKtor_client_coreHttpReceivePipeline, PSDKAKtor_client_coreHttpRequestPipeline, PSDKAKtor_client_coreHttpResponsePipeline, PSDKAKtor_client_coreHttpSendPipeline, PSDKAKotlinx_serialization_coreSerializersModule, PSDKAKotlinx_serialization_jsonJsonDefault, PSDKAKotlinx_serialization_jsonJsonConfiguration, PSDKAKotlinx_serialization_jsonJsonElementCompanion, PSDKAEmbedded_koin_coreKoinDefinition<R>, PSDKAEmbedded_koin_coreScope, PSDKAEmbedded_koin_coreParametersHolder, PSDKAEmbedded_koin_coreInstanceFactory<T>, PSDKAEmbedded_koin_coreSingleInstanceFactory<T>, PSDKAEmbedded_koin_coreScopeDSL, PSDKAEmbedded_koin_coreKoinApplicationCompanion, PSDKAEmbedded_koin_coreLogger, PSDKAEmbedded_koin_coreLevel, PSDKAEmbedded_koin_coreKoin, PSDKAKotlinUnit, PSDKAKtor_client_coreHttpRequestData, PSDKAKtor_client_coreHttpResponseData, PSDKAKotlinx_coroutines_coreCoroutineDispatcher, PSDKAKtor_client_coreProxyConfig, PSDKAKtor_utilsAttributeKey<T>, PSDKAKtor_eventsEventDefinition<T>, PSDKAKtor_utilsPipelinePhase, PSDKAKtor_utilsPipeline<TSubject, TContext>, PSDKAKtor_client_coreHttpReceivePipelinePhases, PSDKAKtor_client_coreHttpResponse, PSDKAKtor_client_coreHttpRequestPipelinePhases, PSDKAKtor_client_coreHttpRequestBuilder, PSDKAKtor_client_coreHttpResponsePipelinePhases, PSDKAKtor_client_coreHttpResponseContainer, PSDKAKtor_client_coreHttpClientCall, PSDKAKtor_client_coreHttpSendPipelinePhases, PSDKAEmbedded_koin_coreLockable, PSDKAKotlinLazyThreadSafetyMode, PSDKAEmbedded_koin_coreBeanDefinition<T>, PSDKAEmbedded_koin_coreInstanceFactoryCompanion, PSDKAEmbedded_koin_coreResolutionContext, PSDKAEmbedded_koin_coreExtensionManager, PSDKAEmbedded_koin_coreInstanceRegistry, PSDKAEmbedded_koin_corePropertyRegistry, PSDKAEmbedded_koin_coreScopeRegistry, PSDKAKtor_httpUrl, PSDKAKtor_httpHttpMethod, PSDKAKtor_httpOutgoingContent, PSDKAKtor_httpHttpStatusCode, PSDKAKtor_utilsGMTDate, PSDKAKtor_httpHttpProtocolVersion, PSDKAKotlinAbstractCoroutineContextElement, PSDKAKotlinx_coroutines_coreCoroutineDispatcherKey, PSDKAKtor_httpHeadersBuilder, PSDKAKtor_client_coreHttpRequestBuilderCompanion, PSDKAKtor_httpURLBuilder, PSDKAKtor_utilsTypeInfo, PSDKAKtor_client_coreHttpClientCallCompanion, PSDKAKotlinx_serialization_coreSerialKind, PSDKAEmbedded_koin_coreKind, PSDKAEmbedded_koin_coreCallbacks<T>, PSDKAEmbedded_koin_coreScopeRegistryCompanion, PSDKAKtor_httpUrlCompanion, PSDKAKtor_httpURLProtocol, PSDKAKtor_httpHttpMethodCompanion, PSDKAKtor_httpContentType, PSDKAKtor_httpHttpStatusCodeCompanion, PSDKAKtor_utilsGMTDateCompanion, PSDKAKtor_utilsWeekDay, PSDKAKtor_utilsMonth, PSDKAKtor_httpHttpProtocolVersionCompanion, PSDKAKotlinAbstractCoroutineContextKey<B, E>, PSDKAKtor_ioMemory, PSDKAKtor_ioChunkBuffer, PSDKAKtor_ioBuffer, PSDKAKotlinByteArray, PSDKAKtor_ioByteReadPacket, PSDKAKtor_utilsStringValuesBuilderImpl, PSDKAKtor_httpURLBuilderCompanion, PSDKAKtor_httpURLProtocolCompanion, PSDKAKtor_httpHeaderValueParam, PSDKAKtor_httpHeaderValueWithParametersCompanion, PSDKAKtor_httpHeaderValueWithParameters, PSDKAKtor_httpContentTypeCompanion, PSDKAKtor_utilsWeekDayCompanion, PSDKAKtor_utilsMonthCompanion, PSDKAKtor_ioMemoryCompanion, PSDKAKtor_ioBufferCompanion, PSDKAKtor_ioChunkBufferCompanion, PSDKAKotlinByteIterator, PSDKAKtor_ioInputCompanion, PSDKAKtor_ioInput, PSDKAKtor_ioByteReadPacketCompanion, PSDKAKotlinKTypeProjection, PSDKAKotlinKVariance, PSDKAKotlinKTypeProjectionCompanion;
 
-@protocol PSDKASdkModule, PSDKAKotlinComparable, PSDKAKotlinx_coroutines_coreJob, PSDKACardRequestCallback, PSDKATokenizationCallback, PSDKAInstallmentsCallback, PSDKAPostError, PSDKAKotlinCoroutineContext, PSDKAKotlinx_coroutines_coreCoroutineScope, PSDKAKotlinx_coroutines_coreFlow, PSDKAKotlinx_coroutines_coreMutableSharedFlow, PSDKAEvent, PSDKAKtor_client_loggingLogger, PSDKAKotlinLazy, PSDKAKotlinIterator, PSDKAKotlinx_coroutines_coreChildHandle, PSDKAKotlinx_coroutines_coreChildJob, PSDKAKotlinx_coroutines_coreDisposableHandle, PSDKAKotlinSequence, PSDKAKotlinx_coroutines_coreSelectClause0, PSDKAKotlinCoroutineContextKey, PSDKAKotlinCoroutineContextElement, PSDKAKtor_ioCloseable, PSDKAKtor_client_coreHttpClientEngine, PSDKAKtor_client_coreHttpClientEngineCapability, PSDKAKtor_utilsAttributes, PSDKAKotlinx_serialization_coreDeserializationStrategy, PSDKAKotlinx_serialization_coreSerializationStrategy, PSDKAKotlinx_serialization_coreSerialFormat, PSDKAKotlinx_serialization_coreStringFormat, PSDKAKotlinx_coroutines_coreFlowCollector, PSDKAKotlinx_coroutines_coreStateFlow, PSDKAKotlinx_coroutines_coreSharedFlow, PSDKAKoin_coreQualifier, PSDKAKotlinx_coroutines_coreParentJob, PSDKAKotlinx_coroutines_coreSelectInstance, PSDKAKotlinx_coroutines_coreSelectClause, PSDKAKtor_client_coreHttpClientPlugin, PSDKAKotlinSuspendFunction2, PSDKAKotlinx_serialization_coreDecoder, PSDKAKotlinx_serialization_coreSerialDescriptor, PSDKAKotlinx_serialization_coreEncoder, PSDKAKotlinx_serialization_coreSerializersModuleCollector, PSDKAKotlinx_serialization_coreKSerializer, PSDKAKotlinKClass, PSDKAKotlinx_serialization_jsonJsonNamingStrategy, PSDKAKoin_coreScopeCallback, PSDKAKoin_coreKoinScopeComponent, PSDKAKtor_httpHeaders, PSDKAKotlinContinuation, PSDKAKotlinContinuationInterceptor, PSDKAKotlinx_coroutines_coreRunnable, PSDKAKotlinFunction, PSDKAKtor_httpHttpMessage, PSDKAKtor_ioByteReadChannel, PSDKAKtor_httpHttpMessageBuilder, PSDKAKtor_client_coreHttpRequest, PSDKAKotlinx_serialization_coreCompositeDecoder, PSDKAKotlinAnnotation, PSDKAKotlinx_serialization_coreCompositeEncoder, PSDKAKotlinKDeclarationContainer, PSDKAKotlinKAnnotatedElement, PSDKAKotlinKClassifier, PSDKAKoin_coreKoinComponent, PSDKAKoin_coreKoinExtension, PSDKAKtor_httpParameters, PSDKAKotlinMapEntry, PSDKAKtor_utilsStringValues, PSDKAKtor_ioReadSession, PSDKAKotlinSuspendFunction1, PSDKAKotlinAppendable, PSDKAKtor_utilsStringValuesBuilder, PSDKAKtor_httpParametersBuilder, PSDKAKotlinKType, PSDKAKtor_ioObjectPool;
+@protocol PSDKASdkModule, PSDKAKotlinComparable, PSDKAKotlinx_coroutines_coreJob, PSDKACardRequestCallback, PSDKATokenizationCallback, PSDKAInstallmentsCallback, PSDKAPostError, PSDKAKotlinCoroutineContext, PSDKAKotlinx_coroutines_coreCoroutineScope, PSDKAKotlinx_coroutines_coreFlow, PSDKAKotlinx_coroutines_coreMutableSharedFlow, PSDKAEvent, PSDKAKtor_client_loggingLogger, PSDKAKotlinLazy, PSDKAKotlinIterator, PSDKAKotlinx_coroutines_coreChildHandle, PSDKAKotlinx_coroutines_coreChildJob, PSDKAKotlinx_coroutines_coreDisposableHandle, PSDKAKotlinSequence, PSDKAKotlinx_coroutines_coreSelectClause0, PSDKAKotlinCoroutineContextKey, PSDKAKotlinCoroutineContextElement, PSDKAKtor_ioCloseable, PSDKAKtor_client_coreHttpClientEngine, PSDKAKtor_client_coreHttpClientEngineCapability, PSDKAKtor_utilsAttributes, PSDKAKotlinx_serialization_coreDeserializationStrategy, PSDKAKotlinx_serialization_coreSerializationStrategy, PSDKAKotlinx_serialization_coreSerialFormat, PSDKAKotlinx_serialization_coreStringFormat, PSDKAKotlinx_coroutines_coreFlowCollector, PSDKAKotlinx_coroutines_coreStateFlow, PSDKAKotlinx_coroutines_coreSharedFlow, PSDKAEmbedded_koin_coreQualifier, PSDKAKotlinx_coroutines_coreParentJob, PSDKAKotlinx_coroutines_coreSelectInstance, PSDKAKotlinx_coroutines_coreSelectClause, PSDKAKtor_client_coreHttpClientPlugin, PSDKAKotlinSuspendFunction2, PSDKAKotlinx_serialization_coreDecoder, PSDKAKotlinx_serialization_coreSerialDescriptor, PSDKAKotlinx_serialization_coreEncoder, PSDKAKotlinx_serialization_coreSerializersModuleCollector, PSDKAKotlinx_serialization_coreKSerializer, PSDKAKotlinKClass, PSDKAKotlinx_serialization_jsonJsonNamingStrategy, PSDKAEmbedded_koin_coreScopeCallback, PSDKAEmbedded_koin_coreKoinScopeComponent, PSDKAKtor_httpHeaders, PSDKAKotlinContinuation, PSDKAKotlinContinuationInterceptor, PSDKAKotlinx_coroutines_coreRunnable, PSDKAKotlinFunction, PSDKAKtor_httpHttpMessage, PSDKAKtor_ioByteReadChannel, PSDKAKtor_httpHttpMessageBuilder, PSDKAKtor_client_coreHttpRequest, PSDKAKotlinx_serialization_coreCompositeDecoder, PSDKAKotlinAnnotation, PSDKAKotlinx_serialization_coreCompositeEncoder, PSDKAKotlinKDeclarationContainer, PSDKAKotlinKAnnotatedElement, PSDKAKotlinKClassifier, PSDKAEmbedded_koin_coreKoinComponent, PSDKAEmbedded_koin_coreKoinExtension, PSDKAKtor_httpParameters, PSDKAKotlinMapEntry, PSDKAKtor_utilsStringValues, PSDKAKtor_ioReadSession, PSDKAKotlinSuspendFunction1, PSDKAKotlinAppendable, PSDKAKtor_utilsStringValuesBuilder, PSDKAKtor_httpParametersBuilder, PSDKAKotlinKType, PSDKAKtor_ioObjectPool;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -892,13 +892,13 @@ __attribute__((swift_name("NoParameterExceptionKt")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("PlatformModuleKt")))
 @interface PSDKAPlatformModuleKt : PSDKABase
-@property (class, readonly) PSDKAKoin_coreModule *platformModule __attribute__((swift_name("platformModule")));
+@property (class, readonly) PSDKAEmbedded_koin_coreModule *platformModule __attribute__((swift_name("platformModule")));
 @end
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("PlatformModuleKt_")))
 @interface PSDKAPlatformModuleKt_ : PSDKABase
-@property (class, readonly) PSDKAKoin_coreModule *platformModule __attribute__((swift_name("platformModule")));
+@property (class, readonly) PSDKAEmbedded_koin_coreModule *platformModule __attribute__((swift_name("platformModule")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -910,14 +910,14 @@ __attribute__((swift_name("RandomString_iosKt")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("SdkModule_iosKt")))
 @interface PSDKASdkModule_iosKt : PSDKABase
-@property (class, readonly) PSDKAKoin_coreModule *sdkPlatformModule __attribute__((swift_name("sdkPlatformModule")));
+@property (class, readonly) PSDKAEmbedded_koin_coreModule *sdkPlatformModule __attribute__((swift_name("sdkPlatformModule")));
 @end
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("SdkModuleKt")))
 @interface PSDKASdkModuleKt : PSDKABase
 + (id<PSDKAKotlinLazy>)sdkInject __attribute__((swift_name("sdkInject()")));
-@property (class, readonly) PSDKAKoin_coreKoinApplication *sdkContext __attribute__((swift_name("sdkContext")));
+@property (class, readonly) PSDKAEmbedded_koin_coreKoinApplication *sdkContext __attribute__((swift_name("sdkContext")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -1171,27 +1171,27 @@ __attribute__((swift_name("Kotlinx_serialization_jsonJsonElement")))
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Koin_coreModule")))
-@interface PSDKAKoin_coreModule : PSDKABase
+__attribute__((swift_name("Embedded_koin_coreModule")))
+@interface PSDKAEmbedded_koin_coreModule : PSDKABase
 - (instancetype)initWith_createdAtStart:(BOOL)_createdAtStart __attribute__((swift_name("init(_createdAtStart:)"))) __attribute__((objc_designated_initializer));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (PSDKAKoin_coreKoinDefinition<id> *)factoryQualifier:(id<PSDKAKoin_coreQualifier> _Nullable)qualifier definition:(id _Nullable (^)(PSDKAKoin_coreScope *, PSDKAKoin_coreParametersHolder *))definition __attribute__((swift_name("factory(qualifier:definition:)")));
+- (PSDKAEmbedded_koin_coreKoinDefinition<id> *)factoryQualifier:(id<PSDKAEmbedded_koin_coreQualifier> _Nullable)qualifier definition:(id _Nullable (^)(PSDKAEmbedded_koin_coreScope *, PSDKAEmbedded_koin_coreParametersHolder *))definition __attribute__((swift_name("factory(qualifier:definition:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (void)includesModule:(PSDKAKotlinArray<PSDKAKoin_coreModule *> *)module __attribute__((swift_name("includes(module:)")));
+- (void)includesModule:(PSDKAKotlinArray<PSDKAEmbedded_koin_coreModule *> *)module __attribute__((swift_name("includes(module:)")));
 - (void)includesModule_:(id)module __attribute__((swift_name("includes(module_:)")));
-- (void)indexPrimaryTypeInstanceFactory:(PSDKAKoin_coreInstanceFactory<id> *)instanceFactory __attribute__((swift_name("indexPrimaryType(instanceFactory:)")));
-- (void)indexSecondaryTypesInstanceFactory:(PSDKAKoin_coreInstanceFactory<id> *)instanceFactory __attribute__((swift_name("indexSecondaryTypes(instanceFactory:)")));
-- (NSArray<PSDKAKoin_coreModule *> *)plusModules:(NSArray<PSDKAKoin_coreModule *> *)modules __attribute__((swift_name("plus(modules:)")));
-- (NSArray<PSDKAKoin_coreModule *> *)plusModule:(PSDKAKoin_coreModule *)module __attribute__((swift_name("plus(module:)")));
-- (void)prepareForCreationAtStartInstanceFactory:(PSDKAKoin_coreSingleInstanceFactory<id> *)instanceFactory __attribute__((swift_name("prepareForCreationAtStart(instanceFactory:)")));
-- (void)scopeScopeSet:(void (^)(PSDKAKoin_coreScopeDSL *))scopeSet __attribute__((swift_name("scope(scopeSet:)")));
-- (void)scopeQualifier:(id<PSDKAKoin_coreQualifier>)qualifier scopeSet:(void (^)(PSDKAKoin_coreScopeDSL *))scopeSet __attribute__((swift_name("scope(qualifier:scopeSet:)")));
-- (PSDKAKoin_coreKoinDefinition<id> *)singleQualifier:(id<PSDKAKoin_coreQualifier> _Nullable)qualifier createdAtStart:(BOOL)createdAtStart definition:(id _Nullable (^)(PSDKAKoin_coreScope *, PSDKAKoin_coreParametersHolder *))definition __attribute__((swift_name("single(qualifier:createdAtStart:definition:)")));
-@property (readonly) PSDKAMutableSet<PSDKAKoin_coreSingleInstanceFactory<id> *> *eagerInstances __attribute__((swift_name("eagerInstances")));
+- (void)indexPrimaryTypeInstanceFactory:(PSDKAEmbedded_koin_coreInstanceFactory<id> *)instanceFactory __attribute__((swift_name("indexPrimaryType(instanceFactory:)")));
+- (void)indexSecondaryTypesInstanceFactory:(PSDKAEmbedded_koin_coreInstanceFactory<id> *)instanceFactory __attribute__((swift_name("indexSecondaryTypes(instanceFactory:)")));
+- (NSArray<PSDKAEmbedded_koin_coreModule *> *)plusModule:(PSDKAEmbedded_koin_coreModule *)module __attribute__((swift_name("plus(module:)")));
+- (NSArray<PSDKAEmbedded_koin_coreModule *> *)plusModules:(NSArray<PSDKAEmbedded_koin_coreModule *> *)modules __attribute__((swift_name("plus(modules:)")));
+- (void)prepareForCreationAtStartInstanceFactory:(PSDKAEmbedded_koin_coreSingleInstanceFactory<id> *)instanceFactory __attribute__((swift_name("prepareForCreationAtStart(instanceFactory:)")));
+- (void)scopeScopeSet:(void (^)(PSDKAEmbedded_koin_coreScopeDSL *))scopeSet __attribute__((swift_name("scope(scopeSet:)")));
+- (void)scopeQualifier:(id<PSDKAEmbedded_koin_coreQualifier>)qualifier scopeSet:(void (^)(PSDKAEmbedded_koin_coreScopeDSL *))scopeSet __attribute__((swift_name("scope(qualifier:scopeSet:)")));
+- (PSDKAEmbedded_koin_coreKoinDefinition<id> *)singleQualifier:(id<PSDKAEmbedded_koin_coreQualifier> _Nullable)qualifier createdAtStart:(BOOL)createdAtStart definition:(id _Nullable (^)(PSDKAEmbedded_koin_coreScope *, PSDKAEmbedded_koin_coreParametersHolder *))definition __attribute__((swift_name("single(qualifier:createdAtStart:definition:)")));
+@property (readonly) PSDKAMutableSet<PSDKAEmbedded_koin_coreSingleInstanceFactory<id> *> *eagerInstances __attribute__((swift_name("eagerInstances")));
 @property (readonly) NSString *id __attribute__((swift_name("id")));
-@property (readonly) NSMutableArray<PSDKAKoin_coreModule *> *includedModules __attribute__((swift_name("includedModules")));
+@property (readonly) NSMutableArray<PSDKAEmbedded_koin_coreModule *> *includedModules __attribute__((swift_name("includedModules")));
 @property (readonly) BOOL isLoaded __attribute__((swift_name("isLoaded")));
-@property (readonly) PSDKAMutableDictionary<NSString *, PSDKAKoin_coreInstanceFactory<id> *> *mappings __attribute__((swift_name("mappings")));
+@property (readonly) PSDKAMutableDictionary<NSString *, PSDKAEmbedded_koin_coreInstanceFactory<id> *> *mappings __attribute__((swift_name("mappings")));
 @end
 
 __attribute__((swift_name("KotlinLazy")))
@@ -1202,19 +1202,19 @@ __attribute__((swift_name("KotlinLazy")))
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Koin_coreKoinApplication")))
-@interface PSDKAKoin_coreKoinApplication : PSDKABase
-@property (class, readonly, getter=companion) PSDKAKoin_coreKoinApplicationCompanion *companion __attribute__((swift_name("companion")));
+__attribute__((swift_name("Embedded_koin_coreKoinApplication")))
+@interface PSDKAEmbedded_koin_coreKoinApplication : PSDKABase
+@property (class, readonly, getter=companion) PSDKAEmbedded_koin_coreKoinApplicationCompanion *companion __attribute__((swift_name("companion")));
 - (void)allowOverrideOverride:(BOOL)override __attribute__((swift_name("allowOverride(override:)")));
 - (void)close __attribute__((swift_name("close()")));
 - (void)createEagerInstances __attribute__((swift_name("createEagerInstances()")));
-- (PSDKAKoin_coreKoinApplication *)loggerLogger:(PSDKAKoin_coreLogger *)logger __attribute__((swift_name("logger(logger:)")));
-- (PSDKAKoin_coreKoinApplication *)modulesModules:(PSDKAKotlinArray<PSDKAKoin_coreModule *> *)modules __attribute__((swift_name("modules(modules:)")));
-- (PSDKAKoin_coreKoinApplication *)modulesModules_:(NSArray<PSDKAKoin_coreModule *> *)modules __attribute__((swift_name("modules(modules_:)")));
-- (PSDKAKoin_coreKoinApplication *)modulesModules__:(PSDKAKoin_coreModule *)modules __attribute__((swift_name("modules(modules__:)")));
-- (PSDKAKoin_coreKoinApplication *)printLoggerLevel:(PSDKAKoin_coreLevel *)level __attribute__((swift_name("printLogger(level:)")));
-- (PSDKAKoin_coreKoinApplication *)propertiesValues:(NSDictionary<NSString *, id> *)values __attribute__((swift_name("properties(values:)")));
-@property (readonly) PSDKAKoin_coreKoin *koin __attribute__((swift_name("koin")));
+- (PSDKAEmbedded_koin_coreKoinApplication *)loggerLogger:(PSDKAEmbedded_koin_coreLogger *)logger __attribute__((swift_name("logger(logger:)")));
+- (PSDKAEmbedded_koin_coreKoinApplication *)modulesModules:(PSDKAEmbedded_koin_coreModule *)modules __attribute__((swift_name("modules(modules:)")));
+- (PSDKAEmbedded_koin_coreKoinApplication *)modulesModules_:(PSDKAKotlinArray<PSDKAEmbedded_koin_coreModule *> *)modules __attribute__((swift_name("modules(modules_:)")));
+- (PSDKAEmbedded_koin_coreKoinApplication *)modulesModules__:(NSArray<PSDKAEmbedded_koin_coreModule *> *)modules __attribute__((swift_name("modules(modules__:)")));
+- (PSDKAEmbedded_koin_coreKoinApplication *)printLoggerLevel:(PSDKAEmbedded_koin_coreLevel *)level __attribute__((swift_name("printLogger(level:)")));
+- (PSDKAEmbedded_koin_coreKoinApplication *)propertiesValues:(NSDictionary<NSString *, id> *)values __attribute__((swift_name("properties(values:)")));
+@property (readonly) PSDKAEmbedded_koin_coreKoin *koin __attribute__((swift_name("koin")));
 @end
 
 __attribute__((swift_name("KotlinIterator")))
@@ -1517,69 +1517,69 @@ __attribute__((swift_name("Kotlinx_serialization_jsonJsonElement.Companion")))
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Koin_coreKoinDefinition")))
-@interface PSDKAKoin_coreKoinDefinition<R> : PSDKABase
-- (instancetype)initWithModule:(PSDKAKoin_coreModule *)module factory:(PSDKAKoin_coreInstanceFactory<R> *)factory __attribute__((swift_name("init(module:factory:)"))) __attribute__((objc_designated_initializer));
-- (PSDKAKoin_coreKoinDefinition<R> *)doCopyModule:(PSDKAKoin_coreModule *)module factory:(PSDKAKoin_coreInstanceFactory<R> *)factory __attribute__((swift_name("doCopy(module:factory:)")));
+__attribute__((swift_name("Embedded_koin_coreKoinDefinition")))
+@interface PSDKAEmbedded_koin_coreKoinDefinition<R> : PSDKABase
+- (instancetype)initWithModule:(PSDKAEmbedded_koin_coreModule *)module factory:(PSDKAEmbedded_koin_coreInstanceFactory<R> *)factory __attribute__((swift_name("init(module:factory:)"))) __attribute__((objc_designated_initializer));
+- (PSDKAEmbedded_koin_coreKoinDefinition<R> *)doCopyModule:(PSDKAEmbedded_koin_coreModule *)module factory:(PSDKAEmbedded_koin_coreInstanceFactory<R> *)factory __attribute__((swift_name("doCopy(module:factory:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) PSDKAKoin_coreInstanceFactory<R> *factory __attribute__((swift_name("factory")));
-@property (readonly) PSDKAKoin_coreModule *module __attribute__((swift_name("module")));
+@property (readonly) PSDKAEmbedded_koin_coreInstanceFactory<R> *factory __attribute__((swift_name("factory")));
+@property (readonly) PSDKAEmbedded_koin_coreModule *module __attribute__((swift_name("module")));
 @end
 
-__attribute__((swift_name("Koin_coreQualifier")))
-@protocol PSDKAKoin_coreQualifier
+__attribute__((swift_name("Embedded_koin_coreQualifier")))
+@protocol PSDKAEmbedded_koin_coreQualifier
 @required
 @property (readonly) NSString *value __attribute__((swift_name("value")));
 @end
 
-__attribute__((swift_name("Koin_coreLockable")))
-@interface PSDKAKoin_coreLockable : PSDKABase
+__attribute__((swift_name("Embedded_koin_coreLockable")))
+@interface PSDKAEmbedded_koin_coreLockable : PSDKABase
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Koin_coreScope")))
-@interface PSDKAKoin_coreScope : PSDKAKoin_coreLockable
-- (instancetype)initWithScopeQualifier:(id<PSDKAKoin_coreQualifier>)scopeQualifier id:(NSString *)id isRoot:(BOOL)isRoot _koin:(PSDKAKoin_coreKoin *)_koin __attribute__((swift_name("init(scopeQualifier:id:isRoot:_koin:)"))) __attribute__((objc_designated_initializer));
+__attribute__((swift_name("Embedded_koin_coreScope")))
+@interface PSDKAEmbedded_koin_coreScope : PSDKAEmbedded_koin_coreLockable
+- (instancetype)initWithScopeQualifier:(id<PSDKAEmbedded_koin_coreQualifier>)scopeQualifier id:(NSString *)id isRoot:(BOOL)isRoot _koin:(PSDKAEmbedded_koin_coreKoin *)_koin __attribute__((swift_name("init(scopeQualifier:id:isRoot:_koin:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 + (instancetype)new __attribute__((unavailable));
 - (void)close __attribute__((swift_name("close()")));
-- (void)declareInstance:(id _Nullable)instance qualifier:(id<PSDKAKoin_coreQualifier> _Nullable)qualifier secondaryTypes:(NSArray<id<PSDKAKotlinKClass>> *)secondaryTypes allowOverride:(BOOL)allowOverride holdInstance:(BOOL)holdInstance __attribute__((swift_name("declare(instance:qualifier:secondaryTypes:allowOverride:holdInstance:)")));
-- (id)getQualifier:(id<PSDKAKoin_coreQualifier> _Nullable)qualifier parameters:(PSDKAKoin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("get(qualifier:parameters:)")));
-- (id _Nullable)getClazz:(id<PSDKAKotlinKClass>)clazz qualifier:(id<PSDKAKoin_coreQualifier> _Nullable)qualifier parameters:(PSDKAKoin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("get(clazz:qualifier:parameters:)")));
+- (void)declareInstance:(id _Nullable)instance qualifier:(id<PSDKAEmbedded_koin_coreQualifier> _Nullable)qualifier secondaryTypes:(NSArray<id<PSDKAKotlinKClass>> *)secondaryTypes allowOverride:(BOOL)allowOverride holdInstance:(BOOL)holdInstance __attribute__((swift_name("declare(instance:qualifier:secondaryTypes:allowOverride:holdInstance:)")));
+- (id)getQualifier:(id<PSDKAEmbedded_koin_coreQualifier> _Nullable)qualifier parameters:(PSDKAEmbedded_koin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("get(qualifier:parameters:)")));
+- (id _Nullable)getClazz:(id<PSDKAKotlinKClass>)clazz qualifier:(id<PSDKAEmbedded_koin_coreQualifier> _Nullable)qualifier parameters:(PSDKAEmbedded_koin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("get(clazz:qualifier:parameters:)")));
 - (NSArray<id> *)getAll __attribute__((swift_name("getAll()")));
 - (NSArray<id> *)getAllClazz:(id<PSDKAKotlinKClass>)clazz __attribute__((swift_name("getAll(clazz:)")));
-- (PSDKAKoin_coreKoin *)getKoin __attribute__((swift_name("getKoin()")));
-- (id _Nullable)getOrNullQualifier:(id<PSDKAKoin_coreQualifier> _Nullable)qualifier parameters:(PSDKAKoin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("getOrNull(qualifier:parameters:)")));
-- (id _Nullable)getOrNullClazz:(id<PSDKAKotlinKClass>)clazz qualifier:(id<PSDKAKoin_coreQualifier> _Nullable)qualifier parameters:(PSDKAKoin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("getOrNull(clazz:qualifier:parameters:)")));
+- (PSDKAEmbedded_koin_coreKoin *)getKoin __attribute__((swift_name("getKoin()")));
+- (id _Nullable)getOrNullQualifier:(id<PSDKAEmbedded_koin_coreQualifier> _Nullable)qualifier parameters:(PSDKAEmbedded_koin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("getOrNull(qualifier:parameters:)")));
+- (id _Nullable)getOrNullClazz:(id<PSDKAKotlinKClass>)clazz qualifier:(id<PSDKAEmbedded_koin_coreQualifier> _Nullable)qualifier parameters:(PSDKAEmbedded_koin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("getOrNull(clazz:qualifier:parameters:)")));
 - (id)getPropertyKey:(NSString *)key __attribute__((swift_name("getProperty(key:)")));
 - (id)getPropertyKey:(NSString *)key defaultValue:(id)defaultValue __attribute__((swift_name("getProperty(key:defaultValue:)")));
 - (id _Nullable)getPropertyOrNullKey:(NSString *)key __attribute__((swift_name("getPropertyOrNull(key:)")));
-- (PSDKAKoin_coreScope *)getScopeScopeID:(NSString *)scopeID __attribute__((swift_name("getScope(scopeID:)")));
+- (PSDKAEmbedded_koin_coreScope *)getScopeScopeID:(NSString *)scopeID __attribute__((swift_name("getScope(scopeID:)")));
 - (id _Nullable)getSource __attribute__((swift_name("getSource()")));
-- (id _Nullable)getWithParametersClazz:(id<PSDKAKotlinKClass>)clazz qualifier:(id<PSDKAKoin_coreQualifier> _Nullable)qualifier parameters:(PSDKAKoin_coreParametersHolder * _Nullable)parameters __attribute__((swift_name("getWithParameters(clazz:qualifier:parameters:)")));
-- (id<PSDKAKotlinLazy>)injectQualifier:(id<PSDKAKoin_coreQualifier> _Nullable)qualifier mode:(PSDKAKotlinLazyThreadSafetyMode *)mode parameters:(PSDKAKoin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("inject(qualifier:mode:parameters:)")));
-- (id<PSDKAKotlinLazy>)injectOrNullQualifier:(id<PSDKAKoin_coreQualifier> _Nullable)qualifier mode:(PSDKAKotlinLazyThreadSafetyMode *)mode parameters:(PSDKAKoin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("injectOrNull(qualifier:mode:parameters:)")));
+- (id _Nullable)getWithParametersClazz:(id<PSDKAKotlinKClass>)clazz qualifier:(id<PSDKAEmbedded_koin_coreQualifier> _Nullable)qualifier parameters:(PSDKAEmbedded_koin_coreParametersHolder * _Nullable)parameters __attribute__((swift_name("getWithParameters(clazz:qualifier:parameters:)")));
+- (id<PSDKAKotlinLazy>)injectQualifier:(id<PSDKAEmbedded_koin_coreQualifier> _Nullable)qualifier mode:(PSDKAKotlinLazyThreadSafetyMode *)mode parameters:(PSDKAEmbedded_koin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("inject(qualifier:mode:parameters:)")));
+- (id<PSDKAKotlinLazy>)injectOrNullQualifier:(id<PSDKAEmbedded_koin_coreQualifier> _Nullable)qualifier mode:(PSDKAKotlinLazyThreadSafetyMode *)mode parameters:(PSDKAEmbedded_koin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("injectOrNull(qualifier:mode:parameters:)")));
 - (BOOL)isNotClosed __attribute__((swift_name("isNotClosed()")));
-- (void)linkToScopes:(PSDKAKotlinArray<PSDKAKoin_coreScope *> *)scopes __attribute__((swift_name("linkTo(scopes:)")));
-- (void)registerCallbackCallback:(id<PSDKAKoin_coreScopeCallback>)callback __attribute__((swift_name("registerCallback(callback:)")));
+- (void)linkToScopes:(PSDKAKotlinArray<PSDKAEmbedded_koin_coreScope *> *)scopes __attribute__((swift_name("linkTo(scopes:)")));
+- (void)registerCallbackCallback:(id<PSDKAEmbedded_koin_coreScopeCallback>)callback __attribute__((swift_name("registerCallback(callback:)")));
 - (NSString *)description __attribute__((swift_name("description()")));
-- (void)unlinkScopes:(PSDKAKotlinArray<PSDKAKoin_coreScope *> *)scopes __attribute__((swift_name("unlink(scopes:)")));
+- (void)unlinkScopes:(PSDKAKotlinArray<PSDKAEmbedded_koin_coreScope *> *)scopes __attribute__((swift_name("unlink(scopes:)")));
 @property (readonly) BOOL closed __attribute__((swift_name("closed")));
 @property (readonly) NSString *id __attribute__((swift_name("id")));
 @property (readonly) BOOL isRoot __attribute__((swift_name("isRoot")));
-@property (readonly) PSDKAKoin_coreLogger *logger __attribute__((swift_name("logger")));
-@property (readonly) id<PSDKAKoin_coreQualifier> scopeQualifier __attribute__((swift_name("scopeQualifier")));
+@property (readonly) PSDKAEmbedded_koin_coreLogger *logger __attribute__((swift_name("logger")));
+@property (readonly) id<PSDKAEmbedded_koin_coreQualifier> scopeQualifier __attribute__((swift_name("scopeQualifier")));
 @property id _Nullable sourceValue __attribute__((swift_name("sourceValue")));
 @end
 
-__attribute__((swift_name("Koin_coreParametersHolder")))
-@interface PSDKAKoin_coreParametersHolder : PSDKABase
+__attribute__((swift_name("Embedded_koin_coreParametersHolder")))
+@interface PSDKAEmbedded_koin_coreParametersHolder : PSDKABase
 - (instancetype)initWith_values:(NSMutableArray<id> *)_values useIndexedValues:(PSDKABoolean * _Nullable)useIndexedValues __attribute__((swift_name("init(_values:useIndexedValues:)"))) __attribute__((objc_designated_initializer));
-- (PSDKAKoin_coreParametersHolder *)addValue:(id)value __attribute__((swift_name("add(value:)")));
+- (PSDKAEmbedded_koin_coreParametersHolder *)addValue:(id)value __attribute__((swift_name("add(value:)")));
 - (id _Nullable)component1 __attribute__((swift_name("component1()")));
 - (id _Nullable)component2 __attribute__((swift_name("component2()")));
 - (id _Nullable)component3 __attribute__((swift_name("component3()")));
@@ -1592,7 +1592,7 @@ __attribute__((swift_name("Koin_coreParametersHolder")))
 - (id _Nullable)getOrNull __attribute__((swift_name("getOrNull()")));
 - (id _Nullable)getOrNullClazz:(id<PSDKAKotlinKClass>)clazz __attribute__((swift_name("getOrNull(clazz:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (PSDKAKoin_coreParametersHolder *)insertIndex:(int32_t)index value:(id)value __attribute__((swift_name("insert(index:value:)")));
+- (PSDKAEmbedded_koin_coreParametersHolder *)insertIndex:(int32_t)index value:(id)value __attribute__((swift_name("insert(index:value:)")));
 - (BOOL)isEmpty __attribute__((swift_name("isEmpty()")));
 - (BOOL)isNotEmpty __attribute__((swift_name("isNotEmpty()")));
 - (void)setI:(int32_t)i t:(id _Nullable)t __attribute__((swift_name("set(i:t:)")));
@@ -1603,116 +1603,116 @@ __attribute__((swift_name("Koin_coreParametersHolder")))
 @property (readonly) NSArray<id> *values __attribute__((swift_name("values")));
 @end
 
-__attribute__((swift_name("Koin_coreInstanceFactory")))
-@interface PSDKAKoin_coreInstanceFactory<T> : PSDKAKoin_coreLockable
-- (instancetype)initWithBeanDefinition:(PSDKAKoin_coreBeanDefinition<T> *)beanDefinition __attribute__((swift_name("init(beanDefinition:)"))) __attribute__((objc_designated_initializer));
+__attribute__((swift_name("Embedded_koin_coreInstanceFactory")))
+@interface PSDKAEmbedded_koin_coreInstanceFactory<T> : PSDKAEmbedded_koin_coreLockable
+- (instancetype)initWithBeanDefinition:(PSDKAEmbedded_koin_coreBeanDefinition<T> *)beanDefinition __attribute__((swift_name("init(beanDefinition:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 + (instancetype)new __attribute__((unavailable));
-@property (class, readonly, getter=companion) PSDKAKoin_coreInstanceFactoryCompanion *companion __attribute__((swift_name("companion")));
-- (T _Nullable)createContext:(PSDKAKoin_coreResolutionContext *)context __attribute__((swift_name("create(context:)")));
-- (void)dropScope:(PSDKAKoin_coreScope * _Nullable)scope __attribute__((swift_name("drop(scope:)")));
+@property (class, readonly, getter=companion) PSDKAEmbedded_koin_coreInstanceFactoryCompanion *companion __attribute__((swift_name("companion")));
+- (T _Nullable)createContext:(PSDKAEmbedded_koin_coreResolutionContext *)context __attribute__((swift_name("create(context:)")));
+- (void)dropScope:(PSDKAEmbedded_koin_coreScope * _Nullable)scope __attribute__((swift_name("drop(scope:)")));
 - (void)dropAll __attribute__((swift_name("dropAll()")));
-- (T _Nullable)getContext:(PSDKAKoin_coreResolutionContext *)context __attribute__((swift_name("get(context:)")));
-- (BOOL)isCreatedContext:(PSDKAKoin_coreResolutionContext * _Nullable)context __attribute__((swift_name("isCreated(context:)")));
-@property (readonly) PSDKAKoin_coreBeanDefinition<T> *beanDefinition __attribute__((swift_name("beanDefinition")));
+- (T _Nullable)getContext:(PSDKAEmbedded_koin_coreResolutionContext *)context __attribute__((swift_name("get(context:)")));
+- (BOOL)isCreatedContext:(PSDKAEmbedded_koin_coreResolutionContext * _Nullable)context __attribute__((swift_name("isCreated(context:)")));
+@property (readonly) PSDKAEmbedded_koin_coreBeanDefinition<T> *beanDefinition __attribute__((swift_name("beanDefinition")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Koin_coreSingleInstanceFactory")))
-@interface PSDKAKoin_coreSingleInstanceFactory<T> : PSDKAKoin_coreInstanceFactory<T>
-- (instancetype)initWithBeanDefinition:(PSDKAKoin_coreBeanDefinition<T> *)beanDefinition __attribute__((swift_name("init(beanDefinition:)"))) __attribute__((objc_designated_initializer));
-- (T _Nullable)createContext:(PSDKAKoin_coreResolutionContext *)context __attribute__((swift_name("create(context:)")));
-- (void)dropScope:(PSDKAKoin_coreScope * _Nullable)scope __attribute__((swift_name("drop(scope:)")));
+__attribute__((swift_name("Embedded_koin_coreSingleInstanceFactory")))
+@interface PSDKAEmbedded_koin_coreSingleInstanceFactory<T> : PSDKAEmbedded_koin_coreInstanceFactory<T>
+- (instancetype)initWithBeanDefinition:(PSDKAEmbedded_koin_coreBeanDefinition<T> *)beanDefinition __attribute__((swift_name("init(beanDefinition:)"))) __attribute__((objc_designated_initializer));
+- (T _Nullable)createContext:(PSDKAEmbedded_koin_coreResolutionContext *)context __attribute__((swift_name("create(context:)")));
+- (void)dropScope:(PSDKAEmbedded_koin_coreScope * _Nullable)scope __attribute__((swift_name("drop(scope:)")));
 - (void)dropAll __attribute__((swift_name("dropAll()")));
-- (T _Nullable)getContext:(PSDKAKoin_coreResolutionContext *)context __attribute__((swift_name("get(context:)")));
-- (BOOL)isCreatedContext:(PSDKAKoin_coreResolutionContext * _Nullable)context __attribute__((swift_name("isCreated(context:)")));
+- (T _Nullable)getContext:(PSDKAEmbedded_koin_coreResolutionContext *)context __attribute__((swift_name("get(context:)")));
+- (BOOL)isCreatedContext:(PSDKAEmbedded_koin_coreResolutionContext * _Nullable)context __attribute__((swift_name("isCreated(context:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Koin_coreScopeDSL")))
-@interface PSDKAKoin_coreScopeDSL : PSDKABase
-- (instancetype)initWithScopeQualifier:(id<PSDKAKoin_coreQualifier>)scopeQualifier module:(PSDKAKoin_coreModule *)module __attribute__((swift_name("init(scopeQualifier:module:)"))) __attribute__((objc_designated_initializer));
-- (PSDKAKoin_coreKoinDefinition<id> *)factoryQualifier:(id<PSDKAKoin_coreQualifier> _Nullable)qualifier definition:(id _Nullable (^)(PSDKAKoin_coreScope *, PSDKAKoin_coreParametersHolder *))definition __attribute__((swift_name("factory(qualifier:definition:)")));
-- (PSDKAKoin_coreKoinDefinition<id> *)scopedQualifier:(id<PSDKAKoin_coreQualifier> _Nullable)qualifier definition:(id _Nullable (^)(PSDKAKoin_coreScope *, PSDKAKoin_coreParametersHolder *))definition __attribute__((swift_name("scoped(qualifier:definition:)")));
-@property (readonly) PSDKAKoin_coreModule *module __attribute__((swift_name("module")));
-@property (readonly) id<PSDKAKoin_coreQualifier> scopeQualifier __attribute__((swift_name("scopeQualifier")));
+__attribute__((swift_name("Embedded_koin_coreScopeDSL")))
+@interface PSDKAEmbedded_koin_coreScopeDSL : PSDKABase
+- (instancetype)initWithScopeQualifier:(id<PSDKAEmbedded_koin_coreQualifier>)scopeQualifier module:(PSDKAEmbedded_koin_coreModule *)module __attribute__((swift_name("init(scopeQualifier:module:)"))) __attribute__((objc_designated_initializer));
+- (PSDKAEmbedded_koin_coreKoinDefinition<id> *)factoryQualifier:(id<PSDKAEmbedded_koin_coreQualifier> _Nullable)qualifier definition:(id _Nullable (^)(PSDKAEmbedded_koin_coreScope *, PSDKAEmbedded_koin_coreParametersHolder *))definition __attribute__((swift_name("factory(qualifier:definition:)")));
+- (PSDKAEmbedded_koin_coreKoinDefinition<id> *)scopedQualifier:(id<PSDKAEmbedded_koin_coreQualifier> _Nullable)qualifier definition:(id _Nullable (^)(PSDKAEmbedded_koin_coreScope *, PSDKAEmbedded_koin_coreParametersHolder *))definition __attribute__((swift_name("scoped(qualifier:definition:)")));
+@property (readonly) PSDKAEmbedded_koin_coreModule *module __attribute__((swift_name("module")));
+@property (readonly) id<PSDKAEmbedded_koin_coreQualifier> scopeQualifier __attribute__((swift_name("scopeQualifier")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Koin_coreKoinApplication.Companion")))
-@interface PSDKAKoin_coreKoinApplicationCompanion : PSDKABase
+__attribute__((swift_name("Embedded_koin_coreKoinApplication.Companion")))
+@interface PSDKAEmbedded_koin_coreKoinApplicationCompanion : PSDKABase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) PSDKAKoin_coreKoinApplicationCompanion *shared __attribute__((swift_name("shared")));
-- (PSDKAKoin_coreKoinApplication *)doInit __attribute__((swift_name("doInit()")));
+@property (class, readonly, getter=shared) PSDKAEmbedded_koin_coreKoinApplicationCompanion *shared __attribute__((swift_name("shared")));
+- (PSDKAEmbedded_koin_coreKoinApplication *)doInit __attribute__((swift_name("doInit()")));
 @end
 
-__attribute__((swift_name("Koin_coreLogger")))
-@interface PSDKAKoin_coreLogger : PSDKABase
-- (instancetype)initWithLevel:(PSDKAKoin_coreLevel *)level __attribute__((swift_name("init(level:)"))) __attribute__((objc_designated_initializer));
+__attribute__((swift_name("Embedded_koin_coreLogger")))
+@interface PSDKAEmbedded_koin_coreLogger : PSDKABase
+- (instancetype)initWithLevel:(PSDKAEmbedded_koin_coreLevel *)level __attribute__((swift_name("init(level:)"))) __attribute__((objc_designated_initializer));
 - (void)debugMsg:(NSString *)msg __attribute__((swift_name("debug(msg:)")));
-- (void)displayLevel:(PSDKAKoin_coreLevel *)level msg:(NSString *)msg __attribute__((swift_name("display(level:msg:)")));
+- (void)displayLevel:(PSDKAEmbedded_koin_coreLevel *)level msg:(NSString *)msg __attribute__((swift_name("display(level:msg:)")));
 - (void)errorMsg:(NSString *)msg __attribute__((swift_name("error(msg:)")));
 - (void)infoMsg:(NSString *)msg __attribute__((swift_name("info(msg:)")));
-- (BOOL)isAtLvl:(PSDKAKoin_coreLevel *)lvl __attribute__((swift_name("isAt(lvl:)")));
-- (void)logLvl:(PSDKAKoin_coreLevel *)lvl msg:(NSString *(^)(void))msg __attribute__((swift_name("log(lvl:msg:)")));
-- (void)logLvl:(PSDKAKoin_coreLevel *)lvl msg_:(NSString *)msg __attribute__((swift_name("log(lvl:msg_:)")));
+- (BOOL)isAtLvl:(PSDKAEmbedded_koin_coreLevel *)lvl __attribute__((swift_name("isAt(lvl:)")));
+- (void)logLvl:(PSDKAEmbedded_koin_coreLevel *)lvl msg:(NSString *(^)(void))msg __attribute__((swift_name("log(lvl:msg:)")));
+- (void)logLvl:(PSDKAEmbedded_koin_coreLevel *)lvl msg_:(NSString *)msg __attribute__((swift_name("log(lvl:msg_:)")));
 - (void)warnMsg:(NSString *)msg __attribute__((swift_name("warn(msg:)")));
-@property PSDKAKoin_coreLevel *level __attribute__((swift_name("level")));
+@property PSDKAEmbedded_koin_coreLevel *level __attribute__((swift_name("level")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Koin_coreLevel")))
-@interface PSDKAKoin_coreLevel : PSDKAKotlinEnum<PSDKAKoin_coreLevel *>
+__attribute__((swift_name("Embedded_koin_coreLevel")))
+@interface PSDKAEmbedded_koin_coreLevel : PSDKAKotlinEnum<PSDKAEmbedded_koin_coreLevel *>
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 - (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly) PSDKAKoin_coreLevel *debug __attribute__((swift_name("debug")));
-@property (class, readonly) PSDKAKoin_coreLevel *info __attribute__((swift_name("info")));
-@property (class, readonly) PSDKAKoin_coreLevel *warning __attribute__((swift_name("warning")));
-@property (class, readonly) PSDKAKoin_coreLevel *error __attribute__((swift_name("error")));
-@property (class, readonly) PSDKAKoin_coreLevel *none __attribute__((swift_name("none")));
-+ (PSDKAKotlinArray<PSDKAKoin_coreLevel *> *)values __attribute__((swift_name("values()")));
-@property (class, readonly) NSArray<PSDKAKoin_coreLevel *> *entries __attribute__((swift_name("entries")));
+@property (class, readonly) PSDKAEmbedded_koin_coreLevel *debug __attribute__((swift_name("debug")));
+@property (class, readonly) PSDKAEmbedded_koin_coreLevel *info __attribute__((swift_name("info")));
+@property (class, readonly) PSDKAEmbedded_koin_coreLevel *warning __attribute__((swift_name("warning")));
+@property (class, readonly) PSDKAEmbedded_koin_coreLevel *error __attribute__((swift_name("error")));
+@property (class, readonly) PSDKAEmbedded_koin_coreLevel *none __attribute__((swift_name("none")));
++ (PSDKAKotlinArray<PSDKAEmbedded_koin_coreLevel *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<PSDKAEmbedded_koin_coreLevel *> *entries __attribute__((swift_name("entries")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Koin_coreKoin")))
-@interface PSDKAKoin_coreKoin : PSDKABase
+__attribute__((swift_name("Embedded_koin_coreKoin")))
+@interface PSDKAEmbedded_koin_coreKoin : PSDKABase
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
 - (void)close __attribute__((swift_name("close()")));
 - (void)createEagerInstances __attribute__((swift_name("createEagerInstances()")));
-- (PSDKAKoin_coreScope *)createScopeT:(id<PSDKAKoin_coreKoinScopeComponent>)t __attribute__((swift_name("createScope(t:)")));
-- (PSDKAKoin_coreScope *)createScopeScopeId:(NSString *)scopeId __attribute__((swift_name("createScope(scopeId:)")));
-- (PSDKAKoin_coreScope *)createScopeScopeId:(NSString *)scopeId source:(id _Nullable)source __attribute__((swift_name("createScope(scopeId:source:)")));
-- (PSDKAKoin_coreScope *)createScopeScopeId:(NSString *)scopeId qualifier:(id<PSDKAKoin_coreQualifier>)qualifier source:(id _Nullable)source __attribute__((swift_name("createScope(scopeId:qualifier:source:)")));
-- (void)declareInstance:(id _Nullable)instance qualifier:(id<PSDKAKoin_coreQualifier> _Nullable)qualifier secondaryTypes:(NSArray<id<PSDKAKotlinKClass>> *)secondaryTypes allowOverride:(BOOL)allowOverride __attribute__((swift_name("declare(instance:qualifier:secondaryTypes:allowOverride:)")));
+- (PSDKAEmbedded_koin_coreScope *)createScopeT:(id<PSDKAEmbedded_koin_coreKoinScopeComponent>)t __attribute__((swift_name("createScope(t:)")));
+- (PSDKAEmbedded_koin_coreScope *)createScopeScopeId:(NSString *)scopeId __attribute__((swift_name("createScope(scopeId:)")));
+- (PSDKAEmbedded_koin_coreScope *)createScopeScopeId:(NSString *)scopeId source:(id _Nullable)source __attribute__((swift_name("createScope(scopeId:source:)")));
+- (PSDKAEmbedded_koin_coreScope *)createScopeScopeId:(NSString *)scopeId qualifier:(id<PSDKAEmbedded_koin_coreQualifier>)qualifier source:(id _Nullable)source __attribute__((swift_name("createScope(scopeId:qualifier:source:)")));
+- (void)declareInstance:(id _Nullable)instance qualifier:(id<PSDKAEmbedded_koin_coreQualifier> _Nullable)qualifier secondaryTypes:(NSArray<id<PSDKAKotlinKClass>> *)secondaryTypes allowOverride:(BOOL)allowOverride __attribute__((swift_name("declare(instance:qualifier:secondaryTypes:allowOverride:)")));
 - (void)deletePropertyKey:(NSString *)key __attribute__((swift_name("deleteProperty(key:)")));
 - (void)deleteScopeScopeId:(NSString *)scopeId __attribute__((swift_name("deleteScope(scopeId:)")));
-- (id)getQualifier:(id<PSDKAKoin_coreQualifier> _Nullable)qualifier parameters:(PSDKAKoin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("get(qualifier:parameters:)")));
-- (id _Nullable)getClazz:(id<PSDKAKotlinKClass>)clazz qualifier:(id<PSDKAKoin_coreQualifier> _Nullable)qualifier parameters:(PSDKAKoin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("get(clazz:qualifier:parameters:)")));
+- (id)getQualifier:(id<PSDKAEmbedded_koin_coreQualifier> _Nullable)qualifier parameters:(PSDKAEmbedded_koin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("get(qualifier:parameters:)")));
+- (id _Nullable)getClazz:(id<PSDKAKotlinKClass>)clazz qualifier:(id<PSDKAEmbedded_koin_coreQualifier> _Nullable)qualifier parameters:(PSDKAEmbedded_koin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("get(clazz:qualifier:parameters:)")));
 - (NSArray<id> *)getAll __attribute__((swift_name("getAll()")));
-- (PSDKAKoin_coreScope *)getOrCreateScopeScopeId:(NSString *)scopeId __attribute__((swift_name("getOrCreateScope(scopeId:)")));
-- (PSDKAKoin_coreScope *)getOrCreateScopeScopeId:(NSString *)scopeId qualifier:(id<PSDKAKoin_coreQualifier>)qualifier source:(id _Nullable)source __attribute__((swift_name("getOrCreateScope(scopeId:qualifier:source:)")));
-- (id _Nullable)getOrNullQualifier:(id<PSDKAKoin_coreQualifier> _Nullable)qualifier parameters:(PSDKAKoin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("getOrNull(qualifier:parameters:)")));
-- (id _Nullable)getOrNullClazz:(id<PSDKAKotlinKClass>)clazz qualifier:(id<PSDKAKoin_coreQualifier> _Nullable)qualifier parameters:(PSDKAKoin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("getOrNull(clazz:qualifier:parameters:)")));
+- (PSDKAEmbedded_koin_coreScope *)getOrCreateScopeScopeId:(NSString *)scopeId __attribute__((swift_name("getOrCreateScope(scopeId:)")));
+- (PSDKAEmbedded_koin_coreScope *)getOrCreateScopeScopeId:(NSString *)scopeId qualifier:(id<PSDKAEmbedded_koin_coreQualifier>)qualifier source:(id _Nullable)source __attribute__((swift_name("getOrCreateScope(scopeId:qualifier:source:)")));
+- (id _Nullable)getOrNullQualifier:(id<PSDKAEmbedded_koin_coreQualifier> _Nullable)qualifier parameters:(PSDKAEmbedded_koin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("getOrNull(qualifier:parameters:)")));
+- (id _Nullable)getOrNullClazz:(id<PSDKAKotlinKClass>)clazz qualifier:(id<PSDKAEmbedded_koin_coreQualifier> _Nullable)qualifier parameters:(PSDKAEmbedded_koin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("getOrNull(clazz:qualifier:parameters:)")));
 - (id _Nullable)getPropertyKey:(NSString *)key __attribute__((swift_name("getProperty(key:)")));
 - (id)getPropertyKey:(NSString *)key defaultValue:(id)defaultValue __attribute__((swift_name("getProperty(key:defaultValue:)")));
-- (PSDKAKoin_coreScope *)getScopeScopeId:(NSString *)scopeId __attribute__((swift_name("getScope(scopeId:)")));
-- (PSDKAKoin_coreScope * _Nullable)getScopeOrNullScopeId:(NSString *)scopeId __attribute__((swift_name("getScopeOrNull(scopeId:)")));
-- (id<PSDKAKotlinLazy>)injectQualifier:(id<PSDKAKoin_coreQualifier> _Nullable)qualifier mode:(PSDKAKotlinLazyThreadSafetyMode *)mode parameters:(PSDKAKoin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("inject(qualifier:mode:parameters:)")));
-- (id<PSDKAKotlinLazy>)injectOrNullQualifier:(id<PSDKAKoin_coreQualifier> _Nullable)qualifier mode:(PSDKAKotlinLazyThreadSafetyMode *)mode parameters:(PSDKAKoin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("injectOrNull(qualifier:mode:parameters:)")));
-- (void)loadModulesModules:(NSArray<PSDKAKoin_coreModule *> *)modules allowOverride:(BOOL)allowOverride createEagerInstances:(BOOL)createEagerInstances __attribute__((swift_name("loadModules(modules:allowOverride:createEagerInstances:)")));
+- (PSDKAEmbedded_koin_coreScope *)getScopeScopeId:(NSString *)scopeId __attribute__((swift_name("getScope(scopeId:)")));
+- (PSDKAEmbedded_koin_coreScope * _Nullable)getScopeOrNullScopeId:(NSString *)scopeId __attribute__((swift_name("getScopeOrNull(scopeId:)")));
+- (id<PSDKAKotlinLazy>)injectQualifier:(id<PSDKAEmbedded_koin_coreQualifier> _Nullable)qualifier mode:(PSDKAKotlinLazyThreadSafetyMode *)mode parameters:(PSDKAEmbedded_koin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("inject(qualifier:mode:parameters:)")));
+- (id<PSDKAKotlinLazy>)injectOrNullQualifier:(id<PSDKAEmbedded_koin_coreQualifier> _Nullable)qualifier mode:(PSDKAKotlinLazyThreadSafetyMode *)mode parameters:(PSDKAEmbedded_koin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("injectOrNull(qualifier:mode:parameters:)")));
+- (void)loadModulesModules:(NSArray<PSDKAEmbedded_koin_coreModule *> *)modules allowOverride:(BOOL)allowOverride createEagerInstances:(BOOL)createEagerInstances __attribute__((swift_name("loadModules(modules:allowOverride:createEagerInstances:)")));
 - (void)setPropertyKey:(NSString *)key value:(id)value __attribute__((swift_name("setProperty(key:value:)")));
-- (void)setupLoggerLogger:(PSDKAKoin_coreLogger *)logger __attribute__((swift_name("setupLogger(logger:)")));
-- (void)unloadModulesModules:(NSArray<PSDKAKoin_coreModule *> *)modules __attribute__((swift_name("unloadModules(modules:)")));
-@property (readonly) PSDKAKoin_coreExtensionManager *extensionManager __attribute__((swift_name("extensionManager")));
-@property (readonly) PSDKAKoin_coreInstanceRegistry *instanceRegistry __attribute__((swift_name("instanceRegistry")));
-@property (readonly) PSDKAKoin_coreLogger *logger __attribute__((swift_name("logger")));
-@property (readonly) PSDKAKoin_corePropertyRegistry *propertyRegistry __attribute__((swift_name("propertyRegistry")));
-@property (readonly) PSDKAKoin_coreScopeRegistry *scopeRegistry __attribute__((swift_name("scopeRegistry")));
+- (void)setupLoggerLogger:(PSDKAEmbedded_koin_coreLogger *)logger __attribute__((swift_name("setupLogger(logger:)")));
+- (void)unloadModulesModules:(NSArray<PSDKAEmbedded_koin_coreModule *> *)modules __attribute__((swift_name("unloadModules(modules:)")));
+@property (readonly) PSDKAEmbedded_koin_coreExtensionManager *extensionManager __attribute__((swift_name("extensionManager")));
+@property (readonly) PSDKAEmbedded_koin_coreInstanceRegistry *instanceRegistry __attribute__((swift_name("instanceRegistry")));
+@property (readonly) PSDKAEmbedded_koin_coreLogger *logger __attribute__((swift_name("logger")));
+@property (readonly) PSDKAEmbedded_koin_corePropertyRegistry *propertyRegistry __attribute__((swift_name("propertyRegistry")));
+@property (readonly) PSDKAEmbedded_koin_coreScopeRegistry *scopeRegistry __attribute__((swift_name("scopeRegistry")));
 @end
 
 __attribute__((swift_name("Kotlinx_coroutines_coreParentJob")))
@@ -2237,88 +2237,88 @@ __attribute__((swift_name("KotlinLazyThreadSafetyMode")))
 @property (class, readonly) NSArray<PSDKAKotlinLazyThreadSafetyMode *> *entries __attribute__((swift_name("entries")));
 @end
 
-__attribute__((swift_name("Koin_coreScopeCallback")))
-@protocol PSDKAKoin_coreScopeCallback
+__attribute__((swift_name("Embedded_koin_coreScopeCallback")))
+@protocol PSDKAEmbedded_koin_coreScopeCallback
 @required
-- (void)onScopeCloseScope:(PSDKAKoin_coreScope *)scope __attribute__((swift_name("onScopeClose(scope:)")));
+- (void)onScopeCloseScope:(PSDKAEmbedded_koin_coreScope *)scope __attribute__((swift_name("onScopeClose(scope:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Koin_coreBeanDefinition")))
-@interface PSDKAKoin_coreBeanDefinition<T> : PSDKABase
-- (instancetype)initWithScopeQualifier:(id<PSDKAKoin_coreQualifier>)scopeQualifier primaryType:(id<PSDKAKotlinKClass>)primaryType qualifier:(id<PSDKAKoin_coreQualifier> _Nullable)qualifier definition:(T _Nullable (^)(PSDKAKoin_coreScope *, PSDKAKoin_coreParametersHolder *))definition kind:(PSDKAKoin_coreKind *)kind secondaryTypes:(NSArray<id<PSDKAKotlinKClass>> *)secondaryTypes __attribute__((swift_name("init(scopeQualifier:primaryType:qualifier:definition:kind:secondaryTypes:)"))) __attribute__((objc_designated_initializer));
+__attribute__((swift_name("Embedded_koin_coreBeanDefinition")))
+@interface PSDKAEmbedded_koin_coreBeanDefinition<T> : PSDKABase
+- (instancetype)initWithScopeQualifier:(id<PSDKAEmbedded_koin_coreQualifier>)scopeQualifier primaryType:(id<PSDKAKotlinKClass>)primaryType qualifier:(id<PSDKAEmbedded_koin_coreQualifier> _Nullable)qualifier definition:(T _Nullable (^)(PSDKAEmbedded_koin_coreScope *, PSDKAEmbedded_koin_coreParametersHolder *))definition kind:(PSDKAEmbedded_koin_coreKind *)kind secondaryTypes:(NSArray<id<PSDKAKotlinKClass>> *)secondaryTypes __attribute__((swift_name("init(scopeQualifier:primaryType:qualifier:definition:kind:secondaryTypes:)"))) __attribute__((objc_designated_initializer));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (BOOL)hasTypeClazz:(id<PSDKAKotlinKClass>)clazz __attribute__((swift_name("hasType(clazz:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (BOOL)isClazz:(id<PSDKAKotlinKClass>)clazz qualifier:(id<PSDKAKoin_coreQualifier> _Nullable)qualifier scopeDefinition:(id<PSDKAKoin_coreQualifier>)scopeDefinition __attribute__((swift_name("is(clazz:qualifier:scopeDefinition:)")));
+- (BOOL)isClazz:(id<PSDKAKotlinKClass>)clazz qualifier:(id<PSDKAEmbedded_koin_coreQualifier> _Nullable)qualifier scopeDefinition:(id<PSDKAEmbedded_koin_coreQualifier>)scopeDefinition __attribute__((swift_name("is(clazz:qualifier:scopeDefinition:)")));
 - (NSString *)description __attribute__((swift_name("description()")));
-@property PSDKAKoin_coreCallbacks<T> *callbacks __attribute__((swift_name("callbacks")));
-@property (readonly) T _Nullable (^definition)(PSDKAKoin_coreScope *, PSDKAKoin_coreParametersHolder *) __attribute__((swift_name("definition")));
-@property (readonly) PSDKAKoin_coreKind *kind __attribute__((swift_name("kind")));
+@property PSDKAEmbedded_koin_coreCallbacks<T> *callbacks __attribute__((swift_name("callbacks")));
+@property (readonly) T _Nullable (^definition)(PSDKAEmbedded_koin_coreScope *, PSDKAEmbedded_koin_coreParametersHolder *) __attribute__((swift_name("definition")));
+@property (readonly) PSDKAEmbedded_koin_coreKind *kind __attribute__((swift_name("kind")));
 @property (readonly) id<PSDKAKotlinKClass> primaryType __attribute__((swift_name("primaryType")));
-@property id<PSDKAKoin_coreQualifier> _Nullable qualifier __attribute__((swift_name("qualifier")));
-@property (readonly) id<PSDKAKoin_coreQualifier> scopeQualifier __attribute__((swift_name("scopeQualifier")));
+@property id<PSDKAEmbedded_koin_coreQualifier> _Nullable qualifier __attribute__((swift_name("qualifier")));
+@property (readonly) id<PSDKAEmbedded_koin_coreQualifier> scopeQualifier __attribute__((swift_name("scopeQualifier")));
 @property NSArray<id<PSDKAKotlinKClass>> *secondaryTypes __attribute__((swift_name("secondaryTypes")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Koin_coreInstanceFactoryCompanion")))
-@interface PSDKAKoin_coreInstanceFactoryCompanion : PSDKABase
+__attribute__((swift_name("Embedded_koin_coreInstanceFactoryCompanion")))
+@interface PSDKAEmbedded_koin_coreInstanceFactoryCompanion : PSDKABase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) PSDKAKoin_coreInstanceFactoryCompanion *shared __attribute__((swift_name("shared")));
+@property (class, readonly, getter=shared) PSDKAEmbedded_koin_coreInstanceFactoryCompanion *shared __attribute__((swift_name("shared")));
 @property (readonly) NSString *ERROR_SEPARATOR __attribute__((swift_name("ERROR_SEPARATOR")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Koin_coreResolutionContext")))
-@interface PSDKAKoin_coreResolutionContext : PSDKABase
-- (instancetype)initWithLogger:(PSDKAKoin_coreLogger *)logger scope:(PSDKAKoin_coreScope *)scope clazz:(id<PSDKAKotlinKClass>)clazz qualifier:(id<PSDKAKoin_coreQualifier> _Nullable)qualifier parameters:(PSDKAKoin_coreParametersHolder * _Nullable)parameters __attribute__((swift_name("init(logger:scope:clazz:qualifier:parameters:)"))) __attribute__((objc_designated_initializer));
+__attribute__((swift_name("Embedded_koin_coreResolutionContext")))
+@interface PSDKAEmbedded_koin_coreResolutionContext : PSDKABase
+- (instancetype)initWithLogger:(PSDKAEmbedded_koin_coreLogger *)logger scope:(PSDKAEmbedded_koin_coreScope *)scope clazz:(id<PSDKAKotlinKClass>)clazz qualifier:(id<PSDKAEmbedded_koin_coreQualifier> _Nullable)qualifier parameters:(PSDKAEmbedded_koin_coreParametersHolder * _Nullable)parameters __attribute__((swift_name("init(logger:scope:clazz:qualifier:parameters:)"))) __attribute__((objc_designated_initializer));
 @property (readonly) id<PSDKAKotlinKClass> clazz __attribute__((swift_name("clazz")));
 @property (readonly) NSString *debugTag __attribute__((swift_name("debugTag")));
-@property (readonly) PSDKAKoin_coreLogger *logger __attribute__((swift_name("logger")));
-@property (readonly) PSDKAKoin_coreParametersHolder * _Nullable parameters __attribute__((swift_name("parameters")));
-@property (readonly) id<PSDKAKoin_coreQualifier> _Nullable qualifier __attribute__((swift_name("qualifier")));
-@property (readonly) PSDKAKoin_coreScope *scope __attribute__((swift_name("scope")));
+@property (readonly) PSDKAEmbedded_koin_coreLogger *logger __attribute__((swift_name("logger")));
+@property (readonly) PSDKAEmbedded_koin_coreParametersHolder * _Nullable parameters __attribute__((swift_name("parameters")));
+@property (readonly) id<PSDKAEmbedded_koin_coreQualifier> _Nullable qualifier __attribute__((swift_name("qualifier")));
+@property (readonly) PSDKAEmbedded_koin_coreScope *scope __attribute__((swift_name("scope")));
 @end
 
-__attribute__((swift_name("Koin_coreKoinComponent")))
-@protocol PSDKAKoin_coreKoinComponent
+__attribute__((swift_name("Embedded_koin_coreKoinComponent")))
+@protocol PSDKAEmbedded_koin_coreKoinComponent
 @required
-- (PSDKAKoin_coreKoin *)getKoin __attribute__((swift_name("getKoin()")));
+- (PSDKAEmbedded_koin_coreKoin *)getKoin __attribute__((swift_name("getKoin()")));
 @end
 
-__attribute__((swift_name("Koin_coreKoinScopeComponent")))
-@protocol PSDKAKoin_coreKoinScopeComponent <PSDKAKoin_coreKoinComponent>
+__attribute__((swift_name("Embedded_koin_coreKoinScopeComponent")))
+@protocol PSDKAEmbedded_koin_coreKoinScopeComponent <PSDKAEmbedded_koin_coreKoinComponent>
 @required
-@property (readonly) PSDKAKoin_coreScope *scope __attribute__((swift_name("scope")));
+@property (readonly) PSDKAEmbedded_koin_coreScope *scope __attribute__((swift_name("scope")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Koin_coreExtensionManager")))
-@interface PSDKAKoin_coreExtensionManager : PSDKABase
-- (instancetype)initWith_koin:(PSDKAKoin_coreKoin *)_koin __attribute__((swift_name("init(_koin:)"))) __attribute__((objc_designated_initializer));
+__attribute__((swift_name("Embedded_koin_coreExtensionManager")))
+@interface PSDKAEmbedded_koin_coreExtensionManager : PSDKABase
+- (instancetype)initWith_koin:(PSDKAEmbedded_koin_coreKoin *)_koin __attribute__((swift_name("init(_koin:)"))) __attribute__((objc_designated_initializer));
 - (void)close __attribute__((swift_name("close()")));
-- (id<PSDKAKoin_coreKoinExtension>)getExtensionId:(NSString *)id __attribute__((swift_name("getExtension(id:)")));
-- (id<PSDKAKoin_coreKoinExtension> _Nullable)getExtensionOrNullId:(NSString *)id __attribute__((swift_name("getExtensionOrNull(id:)")));
-- (void)registerExtensionId:(NSString *)id extension:(id<PSDKAKoin_coreKoinExtension>)extension __attribute__((swift_name("registerExtension(id:extension:)")));
+- (id<PSDKAEmbedded_koin_coreKoinExtension>)getExtensionId:(NSString *)id __attribute__((swift_name("getExtension(id:)")));
+- (id<PSDKAEmbedded_koin_coreKoinExtension> _Nullable)getExtensionOrNullId:(NSString *)id __attribute__((swift_name("getExtensionOrNull(id:)")));
+- (void)registerExtensionId:(NSString *)id extension:(id<PSDKAEmbedded_koin_coreKoinExtension>)extension __attribute__((swift_name("registerExtension(id:extension:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Koin_coreInstanceRegistry")))
-@interface PSDKAKoin_coreInstanceRegistry : PSDKABase
-- (instancetype)initWith_koin:(PSDKAKoin_coreKoin *)_koin __attribute__((swift_name("init(_koin:)"))) __attribute__((objc_designated_initializer));
-- (void)saveMappingAllowOverride:(BOOL)allowOverride mapping:(NSString *)mapping factory:(PSDKAKoin_coreInstanceFactory<id> *)factory logWarning:(BOOL)logWarning __attribute__((swift_name("saveMapping(allowOverride:mapping:factory:logWarning:)")));
+__attribute__((swift_name("Embedded_koin_coreInstanceRegistry")))
+@interface PSDKAEmbedded_koin_coreInstanceRegistry : PSDKABase
+- (instancetype)initWith_koin:(PSDKAEmbedded_koin_coreKoin *)_koin __attribute__((swift_name("init(_koin:)"))) __attribute__((objc_designated_initializer));
+- (void)saveMappingAllowOverride:(BOOL)allowOverride mapping:(NSString *)mapping factory:(PSDKAEmbedded_koin_coreInstanceFactory<id> *)factory logWarning:(BOOL)logWarning __attribute__((swift_name("saveMapping(allowOverride:mapping:factory:logWarning:)")));
 - (int32_t)size __attribute__((swift_name("size()")));
-@property (readonly) PSDKAKoin_coreKoin *_koin __attribute__((swift_name("_koin")));
-@property (readonly) NSDictionary<NSString *, PSDKAKoin_coreInstanceFactory<id> *> *instances __attribute__((swift_name("instances")));
+@property (readonly) PSDKAEmbedded_koin_coreKoin *_koin __attribute__((swift_name("_koin")));
+@property (readonly) NSDictionary<NSString *, PSDKAEmbedded_koin_coreInstanceFactory<id> *> *instances __attribute__((swift_name("instances")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Koin_corePropertyRegistry")))
-@interface PSDKAKoin_corePropertyRegistry : PSDKABase
-- (instancetype)initWith_koin:(PSDKAKoin_coreKoin *)_koin __attribute__((swift_name("init(_koin:)"))) __attribute__((objc_designated_initializer));
+__attribute__((swift_name("Embedded_koin_corePropertyRegistry")))
+@interface PSDKAEmbedded_koin_corePropertyRegistry : PSDKABase
+- (instancetype)initWith_koin:(PSDKAEmbedded_koin_coreKoin *)_koin __attribute__((swift_name("init(_koin:)"))) __attribute__((objc_designated_initializer));
 - (void)close __attribute__((swift_name("close()")));
 - (void)deletePropertyKey:(NSString *)key __attribute__((swift_name("deleteProperty(key:)")));
 - (id _Nullable)getPropertyKey:(NSString *)key __attribute__((swift_name("getProperty(key:)")));
@@ -2326,13 +2326,13 @@ __attribute__((swift_name("Koin_corePropertyRegistry")))
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Koin_coreScopeRegistry")))
-@interface PSDKAKoin_coreScopeRegistry : PSDKABase
-- (instancetype)initWith_koin:(PSDKAKoin_coreKoin *)_koin __attribute__((swift_name("init(_koin:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) PSDKAKoin_coreScopeRegistryCompanion *companion __attribute__((swift_name("companion")));
-- (void)loadScopesModules:(NSSet<PSDKAKoin_coreModule *> *)modules __attribute__((swift_name("loadScopes(modules:)")));
-@property (readonly) PSDKAKoin_coreScope *rootScope __attribute__((swift_name("rootScope")));
-@property (readonly) NSSet<id<PSDKAKoin_coreQualifier>> *scopeDefinitions __attribute__((swift_name("scopeDefinitions")));
+__attribute__((swift_name("Embedded_koin_coreScopeRegistry")))
+@interface PSDKAEmbedded_koin_coreScopeRegistry : PSDKABase
+- (instancetype)initWith_koin:(PSDKAEmbedded_koin_coreKoin *)_koin __attribute__((swift_name("init(_koin:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) PSDKAEmbedded_koin_coreScopeRegistryCompanion *companion __attribute__((swift_name("companion")));
+- (void)loadScopesModules:(NSSet<PSDKAEmbedded_koin_coreModule *> *)modules __attribute__((swift_name("loadScopes(modules:)")));
+@property (readonly) PSDKAEmbedded_koin_coreScope *rootScope __attribute__((swift_name("rootScope")));
+@property (readonly) NSSet<id<PSDKAEmbedded_koin_coreQualifier>> *scopeDefinitions __attribute__((swift_name("scopeDefinitions")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -2872,43 +2872,43 @@ __attribute__((swift_name("Kotlinx_serialization_coreCompositeEncoder")))
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Koin_coreKind")))
-@interface PSDKAKoin_coreKind : PSDKAKotlinEnum<PSDKAKoin_coreKind *>
+__attribute__((swift_name("Embedded_koin_coreKind")))
+@interface PSDKAEmbedded_koin_coreKind : PSDKAKotlinEnum<PSDKAEmbedded_koin_coreKind *>
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 - (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly) PSDKAKoin_coreKind *singleton __attribute__((swift_name("singleton")));
-@property (class, readonly) PSDKAKoin_coreKind *factory __attribute__((swift_name("factory")));
-@property (class, readonly) PSDKAKoin_coreKind *scoped __attribute__((swift_name("scoped")));
-+ (PSDKAKotlinArray<PSDKAKoin_coreKind *> *)values __attribute__((swift_name("values()")));
-@property (class, readonly) NSArray<PSDKAKoin_coreKind *> *entries __attribute__((swift_name("entries")));
+@property (class, readonly) PSDKAEmbedded_koin_coreKind *singleton __attribute__((swift_name("singleton")));
+@property (class, readonly) PSDKAEmbedded_koin_coreKind *factory __attribute__((swift_name("factory")));
+@property (class, readonly) PSDKAEmbedded_koin_coreKind *scoped __attribute__((swift_name("scoped")));
++ (PSDKAKotlinArray<PSDKAEmbedded_koin_coreKind *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<PSDKAEmbedded_koin_coreKind *> *entries __attribute__((swift_name("entries")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Koin_coreCallbacks")))
-@interface PSDKAKoin_coreCallbacks<T> : PSDKABase
+__attribute__((swift_name("Embedded_koin_coreCallbacks")))
+@interface PSDKAEmbedded_koin_coreCallbacks<T> : PSDKABase
 - (instancetype)initWithOnClose:(void (^ _Nullable)(T _Nullable))onClose __attribute__((swift_name("init(onClose:)"))) __attribute__((objc_designated_initializer));
-- (PSDKAKoin_coreCallbacks<T> *)doCopyOnClose:(void (^ _Nullable)(T _Nullable))onClose __attribute__((swift_name("doCopy(onClose:)")));
+- (PSDKAEmbedded_koin_coreCallbacks<T> *)doCopyOnClose:(void (^ _Nullable)(T _Nullable))onClose __attribute__((swift_name("doCopy(onClose:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) void (^ _Nullable onClose)(T _Nullable) __attribute__((swift_name("onClose")));
 @end
 
-__attribute__((swift_name("Koin_coreKoinExtension")))
-@protocol PSDKAKoin_coreKoinExtension
+__attribute__((swift_name("Embedded_koin_coreKoinExtension")))
+@protocol PSDKAEmbedded_koin_coreKoinExtension
 @required
 - (void)onClose __attribute__((swift_name("onClose()")));
-- (void)onRegisterKoin:(PSDKAKoin_coreKoin *)koin __attribute__((swift_name("onRegister(koin:)")));
+- (void)onRegisterKoin:(PSDKAEmbedded_koin_coreKoin *)koin __attribute__((swift_name("onRegister(koin:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Koin_coreScopeRegistry.Companion")))
-@interface PSDKAKoin_coreScopeRegistryCompanion : PSDKABase
+__attribute__((swift_name("Embedded_koin_coreScopeRegistry.Companion")))
+@interface PSDKAEmbedded_koin_coreScopeRegistryCompanion : PSDKABase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) PSDKAKoin_coreScopeRegistryCompanion *shared __attribute__((swift_name("shared")));
+@property (class, readonly, getter=shared) PSDKAEmbedded_koin_coreScopeRegistryCompanion *shared __attribute__((swift_name("shared")));
 @end
 
 __attribute__((objc_subclassing_restricted))
